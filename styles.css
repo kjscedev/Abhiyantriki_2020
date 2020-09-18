@@ -1,0 +1,17 @@
+/*-------------------------- Navbar --------------------------*/
+/* increase spacing between navbar items, dropdown on hover */
+@media (min-width: 800px){
+    .navbar li {
+        margin-left : 1em;
+        margin-right : 1em;
+	}
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+/* temporary */
+body {
+	background-color: paleturquoise;
+}
