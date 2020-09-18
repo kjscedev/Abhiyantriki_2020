@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 /*-------------------------- Navbar --------------------------*/
 /* increase spacing between navbar items, dropdown on hover */
 @media (min-width: 800px){
@@ -13,5 +19,41 @@
 
 /* temporary */
 body {
-	background-color: paleturquoise;
+    background-color: #1e1033;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*---------------------------------Sidebar---------------------------------*/
+.social-media__section {
+    width: 55px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    margin-top: 100px;
+    padding-top: 15px;
+  }
+  
+.social-media__section a {
+    padding: 6px 8px 6px 18px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ccc;
+    display: block;
+    transition: 0.5s;
+    overflow: hidden !important;
+}
+  
+.social-media__section ul li a:hover {
+    color: purple;
+    transform: scale(1);
+    overflow: hidden !important;
+}
+  
+.mobile-social-media-section {
+    display: none;
 }
