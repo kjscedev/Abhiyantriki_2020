@@ -153,34 +153,23 @@ body {
     display: none;
 }
 
-.purple{
+/*.purple{
     background-color: mediumpurple;
-}
+} */
 
 .container{
     margin-top: 20px;
     height: 300px;
     z-index: 1;
-    /*background-image: url("https://images.unsplash.com/photo-1487530811176-3780de880c2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
+    color: white;
 }
 
 .row{
     padding: 20px;
     height: 300px;
-    color: white;
 }
 
-.col-md-4{
-    background-image: url("https://images.unsplash.com/photo-1487530811176-3780de880c2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.col-md-6{
+.flower{
     background-image: url("https://images.unsplash.com/photo-1487530811176-3780de880c2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     background-position: center;
     background-repeat: no-repeat;
