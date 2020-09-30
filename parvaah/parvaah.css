@@ -27,6 +27,6 @@ li{
 
 .volunteer__button{
   margin: auto;
-  height: 30px;
-  width: 100px;
+  height: auto;
+  width: auto;
 }
