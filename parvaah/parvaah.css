@@ -16,3 +16,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.volunteer__button ul li a{
+  color: white;
+}
+
+li{
+  list-style-type: none;
+}
+
+.volunteer__button{
+  margin: auto;
+  height: 30px;
+  width: 100px;
+}
