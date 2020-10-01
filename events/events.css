@@ -10,9 +10,83 @@
   height: 300px;
 }
 
-.flower {
-  background-image: url("https://images.unsplash.com/photo-1487530811176-3780de880c2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/*-------------------------- buttons --------------------------*/
+.button_container {
+  margin: 0 10%;
+}
+
+.buttons-flex {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.btn_details {
+  font-size: 1.25em;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 2px 4px;
+  outline: 0 !important;
+}
+
+.btn_details:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  transition: 0.5s;
+}
+
+/*-------------------------- Cards --------------------------*/
+/* https://codepen.io/travishorn/embed/bzXEjd?default-tab=&theme-id= */
+.cards {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 5rem;
+}
+
+.card {
+  background-color: dodgerblue;
+  /* color: white; */
+  padding: 1rem;
+  height: auto;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.card-img {
+  width: 100%;
+  /* align-items: center; */
+}
+
+.card-header {
+  color: coral;
+  font-size: 2em;
+  text-align: center;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.card-info {
+  font-size: 1.25em;
+  text-align: center;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+.cards {
+  display: none;
 }
