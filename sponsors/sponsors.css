@@ -6,8 +6,9 @@
 }
 
 .row {
-  padding: 20px;
-  height: 300px;
+  padding: 10px;
+  height: 100px;
+  margin: auto;
 }
 
 .flower {
@@ -16,3 +17,86 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/*-------------------------- buttons --------------------------*/
+.button_container {
+  margin: 0 10%;
+}
+
+.buttons-flex {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.btn_details {
+  font-size: 1.5em;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 2px 4px;
+  outline: 0 !important;
+}
+
+.btn_details:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  transition: 0.5s;
+}
+
+.text{
+  margin: auto;
+  padding: 0 90px;
+}
+
+.first, .second, .third, .fourth{
+  height: 400px;
+  background-color: white;
+  overflow: scroll;
+}
+
+p{
+  color: black;
+  margin: auto;
+  text-align: center;
+}
+
+/* .section{
+  display: none;
+} */
+/* .button__container{
+  padding: 0 20px;
+}
+
+.border{
+  background-color: #270d4e;
+  border: none;
+}
+
+.border:hover{
+  background-color: #5a29a3;
+}
+
+p{
+  color: black;
+  margin: auto;
+  text-align: center;
+}
+
+.text{
+  margin: auto;
+  padding: 0 90px;
+}
+
+.sec1, .sec2, .sec3, .sec4{
+  height: 400px;
+  background-color: white;
+  overflow: auto;
+}
+
+.section{
+  display: none;
+} */
