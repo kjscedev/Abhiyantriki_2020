@@ -41,23 +41,47 @@
   background-color: #5a29a3;
 }
 
-.text{
+.text {
   margin: auto;
   padding: 0 90px;
 }
 
-.first, .second, .third, .fourth{
+.first,
+.second,
+.third,
+.fourth {
   height: 400px;
   background-color: white;
   overflow: scroll;
 }
 
-p{
+p {
   color: black;
   margin: auto;
   text-align: center;
 }
 
-.section {
+/* width */
+.scroller::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.scroller::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+.scroller::-webkit-scrollbar-thumb {
+  background: rgba(174, 0, 255, 0.329);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.scroller::-webkit-scrollbar-thumb:hover {
+  background: rgb(174, 0, 255);
+}
+
+.section{
   display: none;
 }
