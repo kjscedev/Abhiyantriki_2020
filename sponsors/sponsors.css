@@ -26,17 +26,17 @@
 }
 
 /*-------------------------- buttons --------------------------*/
-.button__container{
+.button__container {
   padding: 0 20px;
 }
 
-.border{
+.border {
   color: white;
   background-color: #270d4e;
   border: none;
 }
 
-.border:hover{
+.border:hover {
   color: white;
   background-color: #5a29a3;
 }
@@ -82,6 +82,6 @@ p {
   background: rgb(174, 0, 255);
 }
 
-.section{
+.hidden {
   display: none;
 }
