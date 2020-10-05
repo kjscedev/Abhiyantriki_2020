@@ -1,105 +1,109 @@
 .container {
-  margin-top: 20px;
-  height: 300px;
-  z-index: 1;
-  color: white;
+	margin-top: 20px;
+	height: 300px;
+	z-index: 1;
+	color: white;
 }
 
 .row {
-  padding: 20px;
-  height: 300px;
+	padding: 20px;
+	height: 300px;
 }
 
 /*-------------------------- buttons --------------------------*/
 .button_container {
-  margin: 0 10%;
-  padding-top: 50px;
+	margin: 0 10%;
+	padding-top: 50px;
 }
 
 .buttons-flex {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
 }
 
 .btn_details {
-  font-size: 1.25em;
-  color: white;
-  background-color: transparent;
-  border: 2px solid white;
-  border-radius: 5px;
-  padding: 2px 4px;
-  outline: 0 !important;
+	font-size: 1.25em;
+	color: white;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 2px 4px;
+	outline: 0 !important;
 }
 
 .btn_details:hover {
-  color: white;
-  background-color: rgba(255, 255, 255, 0.3);
-  transition: all 0.3s;
+	color: white;
+	background-color: rgba(255, 255, 255, 0.3);
+	transition: all 0.3s;
 }
 .hidden {
-  display: none;
+	display: none;
 }
 .active-btn {
-  color: white;
-  background-color: transparent;
-  border: 2px solid white;
+	color: white;
+	background-color: transparent;
+	border: 2px solid white;
 }
 
 /*-------------------------- Cards --------------------------*/
 /* https://codepen.io/travishorn/embed/bzXEjd?default-tab=&theme-id= */
 .cards {
-  max-width: 1500px;
-  margin: 0 auto;
-  display: grid;
-  grid-gap: 5rem;
-  padding: 15px;
+	max-width: 1500px;
+	margin: 0 auto;
+	display: grid;
+	grid-gap: 5rem;
+	padding: 15px;
 }
 
 .card {
-  background-color: dodgerblue;
-  /* color: white; */
-  padding: 1rem;
-  height: auto;
-  border: 0;
-  padding: 0;
-  background: transparent;
+	background-color: dodgerblue;
+	/* color: white; */
+	padding: 1rem;
+	height: auto;
+	border: 0;
+	padding: 0;
+	background: transparent;
 }
 
 .card-img {
-  width: 100%;
-  /* align-items: center; */
+	width: 100%;
+	/* align-items: center; */
 }
 
 .card-header {
-  color: coral;
-  font-size: 2em;
-  text-align: center;
-  border: 0;
-  padding: 0;
-  background: transparent;
+	color: coral;
+	font-size: 2em;
+	text-align: center;
+	border: 0;
+	padding: 0;
+	background: transparent;
 }
 
 .card-info {
-  font-size: 1.25em;
-  text-align: center;
+	font-size: 1.25em;
+	text-align: center;
 }
 
 /* Screen larger than 600px? 2 column */
 @media (min-width: 600px) {
-  .cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
+	.cards {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 /* Screen larger than 900px? 3 columns */
 @media (min-width: 900px) {
-  .cards {
-    grid-template-columns: repeat(3, 1fr);
-  }
+	.cards {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
 
-.cards {
-  display: none;
+/* .cards {
+	display: none;
+} */
+
+.hidden{
+	display: none;
 }
