@@ -93,6 +93,9 @@
 	}
 }
 
+/* display: flex
+flexdirection: column */
+
 /* Screen larger than 900px? 3 columns */
 @media (min-width: 900px) {
 	.cards {
@@ -106,4 +109,9 @@
 
 .hidden{
 	display: none;
+}
+
+.clicked-btn {
+	background-color: white;
+	color: black;
 }
