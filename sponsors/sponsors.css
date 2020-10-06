@@ -18,27 +18,48 @@
   background-size: cover;
 }
 
-.cycle {
-  background-image: url("https://images.unsplash.com/photo-1601651353134-d5b8906b515e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /*-------------------------- buttons --------------------------*/
 .button__container {
   padding: 0 20px;
 }
 
-.border {
-  color: white;
-  background-color: #270d4e;
+.button {
+  position: relative;
+  background-color: rgba(255,255,255,0.1);
+  box-shadow: 0 5px 5px rgba(241, 239, 239, 0.2);
   border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
 }
 
-.border:hover {
+.button:after {
+  content: "";
+  background: linear-gradient(90deg,transparent,rgba(255,255,255,0.4),transparent);
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.button:hover{
   color: white;
-  background-color: #5a29a3;
 }
 
 .text {
