@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+
+/* --------------------- Background Glitch -------------------- */
+
 .img2 {
   position: absolute;
   width: 100%;
@@ -14,6 +17,53 @@
   opacity: 25%;
   z-index: -1;
 }
+
+/* ------------------------ Preloader ------------------------ */
+
+#plug,
+#socket {
+  fill: #362f47;
+}
+
+#loop-normal {
+  fill: none;
+  stroke: #736496;
+  stroke-width: 12;
+}
+#loop-offset {
+  display: none;
+}
+
+.preloader-anim {
+  background-color: white;
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  animation: loading 5s ease-in-out forwards;
+}
+svg {
+  width: 200px;
+  height: 120px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.hidden {
+  display: none;
+}
+@keyframes loading {
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
 /*-------------------------- Navbar --------------------------*/
 
 @media (min-width: 800px) {
