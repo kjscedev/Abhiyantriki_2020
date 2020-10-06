@@ -1,150 +1,122 @@
 .container {
-  margin-top: 20px;
-  height: 300px;
-  z-index: 1;
-  color: white;
+	margin-top: 20px;
+	height: 300px;
+	z-index: 1;
+	color: white;
 }
 
 .row {
-  padding: 10px;
-  height: 100px;
-  margin: auto;
-}
-
-.sec1 .flower {
-  background-image: url("https://images.unsplash.com/photo-1577353704690-db6a822de692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sec2 .flower {
-  background-image: url("https://images.unsplash.com/photo-1601738080815-41dfec859f30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sec3 .flower {
-  background-image: url("https://images.unsplash.com/photo-1576379896609-85925ab21547?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sec4 .flower {
-  background-image: url("https://images.unsplash.com/photo-1530743373890-f3c506b0b5b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1106&q=80");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	padding: 10px;
+	height: 100px;
+	margin: auto;
 }
 
 /*-------------------------- buttons --------------------------*/
 .button-container {
-  padding: 0 20px;
+	padding: 0 20px;
 }
 
 .button {
-  position: relative;
-  background-color: rgba(255,255,255,0.1);
-  box-shadow: 0 5px 5px rgba(241, 239, 239, 0.2);
-  border: none;
-  font-size: 20px;
-  color: #FFFFFF;
-  text-align: center;
-  -webkit-transition-duration: 0.4s; 
-  transition-duration: 0.4s;
-  text-decoration: none;
-  overflow: hidden;
+	position: relative;
+	background-color: rgba(255,255,255,0.1);
+	box-shadow: 0 5px 5px rgba(241, 239, 239, 0.2);
+	border: none;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	-webkit-transition-duration: 0.4s; 
+	transition-duration: 0.4s;
+	text-decoration: none;
+	overflow: hidden;
 }
 
 .button:after {
-  content: "";
-  background: linear-gradient(90deg,transparent,rgba(255,255,255,0.4),transparent);
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px!important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s
+	content: "";
+	background: linear-gradient(90deg,transparent,rgba(255,255,255,0.4),transparent);
+	display: block;
+	position: absolute;
+	padding-top: 300%;
+	padding-left: 350%;
+	margin-left: -20px!important;
+	margin-top: -120%;
+	opacity: 0;
+	transition: all 0.8s
 }
 
 .button:active:after {
-  color: #FFFFFF;
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s
+	color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+	transition: 0s
 }
 
 .button:hover{
-  color: white;
+	color: white;
 }
 
 .text {
-  margin: auto;
-  padding: 0 90px;
+	margin: auto;
+	padding: 0 90px;
 }
 
 .first, .second, .third, .fourth {
-  height: 400px;
-  background-color: white;
-  overflow: scroll;
+	height: 400px;
+	background-color: white;
+	overflow: scroll;
 }
 
 p {
-  color: black;
-  margin: auto;
-  text-align: center;
+	color: black;
+	margin: auto;
+	text-align: center;
 }
 
 /* width */
 .scroller::-webkit-scrollbar {
-  width: 8px;
+	width: 8px;
 }
 
 /* Track */
 .scroller::-webkit-scrollbar-track {
-  border-radius: 10px;
+	border-radius: 10px;
 }
 
 /* Handle */
 .scroller::-webkit-scrollbar-thumb {
-  background: rgba(174, 0, 255, 0.329);
-  border-radius: 10px;
+	background: rgba(174, 0, 255, 0.329);
+	border-radius: 10px;
 }
 
 /* Handle on hover */
 .scroller::-webkit-scrollbar-thumb:hover {
-  background: rgb(174, 0, 255);
+	background: rgb(174, 0, 255);
 }
 
 .hidden {
-  display: none;
+	display: none;
 }
 
 .clicked-btn {
-  background: rgb(174, 0, 255);
-  color: white;
+	background: rgb(174, 0, 255);
+	color: white;
 }
 
 /*-------------------------- Cards --------------------------*/
 /* https://codepen.io/travishorn/embed/bzXEjd?default-tab=&theme-id= */
 .limit {
-  margin: 20px auto 0 auto;
-  width: 1080px;
-  background-color: white;
+	margin: 20px auto 0 auto;
+	width: 1080px;
+	background-color: white;
 }
 
 .cards {
 	margin: 0 auto;
 	display: grid;
 	grid-gap: 0rem;
-  z-index: 1;
-  color: black;
-  padding: 0px 15px 0 15px;
+	z-index: 1;
+	color: black;
+	padding: 0px 15px 0 15px;
 }
 
 .card {
@@ -155,34 +127,31 @@ p {
 }
 
 .main-card-img {
-  height: 140px;
-  width: 280px;
-  margin: auto;
+	height: 140px;
+	width: 280px;
+	margin: auto;
 }
 
 .card-img {
-  height: 104px;
-  width: 208px;
-  margin: auto;
+	height: 104px;
+	width: 208px;
+	margin: auto;
 }
 
 .card-info {
-  font-size: 1em;
-  padding: 25px 0 20px 0;
+	font-size: 1em;
+	padding: 25px 0 20px 0;
 	text-align: center;
 }
 
-/* Screen larger than 600px? 2 column */
+/* Screen larger than 600px - 2 column */
 @media (min-width: 600px) {
 	.cards {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
-/* display: flex
-flexdirection: column */
-
-/* Screen larger than 900px? 3 columns */
+/* Screen larger than 900px - 3 columns */
 @media (min-width: 900px) {
 	.cards {
 		grid-template-columns: repeat(3, 1fr);
