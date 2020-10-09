@@ -7,7 +7,7 @@
 
 .row {
   padding: 10px;
-  height: 100px;
+  height: 200px;
   margin: auto;
 }
 
@@ -16,6 +16,16 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100px;
+  /* width: 400px; */
+}
+
+img {
+  height: 100px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /*-------------------------- buttons --------------------------*/
@@ -39,7 +49,7 @@
 
 .button:after {
   content: "";
-  background: linear-gradient(90deg,transparent,rgba(255,255,255,0.4),transparent);
+  background: linear-gradient(90deg,transparent, rgba(255,255,255,0.4),transparent);
   display: block;
   position: absolute;
   padding-top: 300%;
@@ -63,8 +73,10 @@
 }
 
 .text {
+  width: 100%;
   margin: auto;
   padding: 0 90px;
+  color: black;
 }
 
 .first,
@@ -106,7 +118,5 @@ p {
 .hidden {
   display: none;
 }
-.clicked-btn {
-  background: rgb(174, 0, 255);
-  color: white;
-}
+
+
