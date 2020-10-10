@@ -160,10 +160,10 @@ nav {
 
 @media screen and (max-width: 800px) {
   #carousel {
-    height: 10rem;
+    height: 350px;
   }
   .selected a img {
-    height: 9rem !important;
+    height: 200px !important;
   }
   .nxt {
     width: 0;
@@ -187,7 +187,12 @@ nav {
     margin: auto;
     z-index: 1;
   }
-
+  .inner {
+    margin: 0 !important;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
   #carousel {
     position: relative;
     grid-column: 2;

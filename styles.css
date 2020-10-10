@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+body {
+  background-color: #1e1033;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* ------------------------- Logos ----------------------------  */
 
 #abhiyantriki-logo img {
@@ -77,8 +83,17 @@ svg {
 }
 
 /*-------------------------- Navbar --------------------------*/
+.navbar-toggler-icon:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  text-decoration: none;
+}
 nav li {
   display: inline-block;
+}
+.mobile {
+  display: none;
+  font-size: 1.2rem;
 }
 @media (min-width: 800px) {
   .navbar li {
@@ -108,13 +123,6 @@ nav li {
 
 /* search here for effects --> https://codepen.io/maheshambure21/pen/QwXaRw */
 /* search here for effects --> https://tympanus.net/Development/CreativeLinkEffects/ */
-
-body {
-  background-color: #1e1033;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 /*-------------------------- Sidebar --------------------------*/
 .social-media__section {
@@ -153,6 +161,13 @@ body {
 .active {
   color: white;
   border: 2px solid white;
+  border-radius: 0px;
+  transition: border-radius 0.5s;
+}
+.active-mobile {
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid white;
   border-radius: 0px;
   transition: border-radius 0.5s;
 }
@@ -447,5 +462,11 @@ body {
     display: block;
     transition: 0.5s;
     display: inline;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: flex;
   }
 }
