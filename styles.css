@@ -4,18 +4,30 @@
   padding: 0;
 }
 
+/* ------------------------- Logos ----------------------------  */
+
+#abhiyantriki-logo img {
+  width: 180px;
+}
+#kj-logo {
+  width: 90px;
+}
+#somaiya-logo {
+  width: 40px;
+}
 /* --------------------- Background Glitch -------------------- */
 
 .img2 {
   position: absolute;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  background: url("https://thumbs.gfycat.com/LightIgnorantHoopoe-max-1mb.gif");
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
   border: 1px solid #000000;
   opacity: 25%;
-  z-index: -1;
+  z-index: -2;
 }
 
 /* ------------------------ Preloader ------------------------ */
@@ -65,7 +77,9 @@ svg {
 }
 
 /*-------------------------- Navbar --------------------------*/
-
+nav li {
+  display: inline-block;
+}
 @media (min-width: 800px) {
   .navbar li {
     margin-left: 1em;
