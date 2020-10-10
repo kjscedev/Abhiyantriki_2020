@@ -1,6 +1,15 @@
+.outer {
+  background: linear-gradient(to bottom, #2c1849, #1e1033);
+}
+.inner {
+  margin: auto 5%;
+}
+nav {
+  margin: 0 !important;
+}
 .container {
   margin-top: 20px;
-  height: 300px;
+  /* padding: auto 5%; */
   z-index: 1;
   color: white;
 }
@@ -16,6 +25,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* --------------------------- Carousel ---------------------------- */
 
 .navslide {
   width: 90vw;
@@ -116,7 +127,7 @@
 .next img,
 .nextRightSecond img,
 .prevLeftSecond img {
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 .nxt {
@@ -146,17 +157,19 @@
 .prv:hover {
   cursor: pointer;
 }
+
 @media screen and (max-width: 800px) {
-  .logo {
-    padding: 0.3rem;
-    height: 4vh;
-    width: 100vw;
+  #carousel {
+    height: 10rem;
+  }
+  .selected a img {
+    height: 9rem !important;
   }
   .nxt {
     width: 0;
     height: 0;
     border-top: 15px solid transparent;
-    border-left: 30px solid #f1f1f1;
+    border-left: 25px solid #f1f1f1;
     border-bottom: 15px solid transparent;
     grid-column: 3;
     grid-row: 1;
@@ -167,12 +180,97 @@
     width: 0;
     height: 0;
     border-top: 15px solid transparent;
-    border-right: 30px solid #f1f1f1;
+    border-right: 25px solid #f1f1f1;
     border-bottom: 15px solid transparent;
     grid-column: 1;
     grid-row: 1;
     margin: auto;
     z-index: 1;
+  }
+
+  #carousel {
+    position: relative;
+    grid-column: 2;
+    grid-row: 1;
+    height: 50vw;
+    overflow: hidden;
+  }
+
+  #carousel div {
+    position: absolute;
+    transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+    opacity: 1;
+  }
+
+  #carousel div img {
+    height: 50vw;
+    transition: height 1s;
+  }
+
+  #carousel div.hideLeft {
+    left: 0%;
+    opacity: 0;
+    transform: translateY(10%) translateX(-50%);
+  }
+
+  #carousel div.hideLeft img {
+    height: 3vw;
+  }
+
+  #carousel div.hideRight {
+    left: 100%;
+    opacity: 0;
+    transform: translateY(10%) translateX(-50%);
+  }
+
+  #carousel div.hideRight img {
+    height: 3vw;
+  }
+
+  #carousel div.prev {
+    left: 0%;
+    opacity: 0;
+    transform: translateY(10%) translateX(-50%);
+  }
+
+  #carousel div.prev img {
+    height: 3vw;
+  }
+
+  #carousel div.prevLeftSecond {
+    left: 0%;
+    opacity: 0;
+    transform: translateY(10%) translateX(-50%);
+  }
+
+  #carousel div.prevLeftSecond img {
+    height: 3vw;
+  }
+
+  #carousel div.selected {
+    z-index: 10;
+    left: 50%;
+    transform: translateY(0px) translateX(-50%);
+  }
+
+  #carousel div.next {
+    left: 100%;
+    opacity: 0;
+    transform: translateY(10%) translateX(-50%);
+  }
+
+  #carousel div.next img {
+    height: 3vw;
+  }
+
+  #carousel div.nextRightSecond {
+    left: 100%;
+    opacity: 0;
+    transform: translateY(10%) translateX(-50%);
+  }
+
+  #carousel div.nextRightSecond img {
+    height: 3vw;
   }
 }
 
