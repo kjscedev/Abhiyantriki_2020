@@ -38,20 +38,3 @@ setTimeout(() => {
     pageLoad = true;
   }
 }, 5000);
-
-window.onload = function() {
-  const Effect = document.querySelector(#effect);
-  window.addEventListener('scroll',scrollEffect);
-
-  function scrollEffect() {
-    if(window.scrollT>=500) {
-      effect.style.opacity = '1';
-      effect.style.transform = 'translateX(0px)';
-      effect.style.transition = '1s ease-in-out';
-    }
-    else {
-      effect.style.opacity = '0';
-      effect.style.transform= 'translateX(-50px)';
-    }
-  }
-}

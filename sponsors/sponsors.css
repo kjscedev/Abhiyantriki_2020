@@ -11,6 +11,10 @@
 	margin: auto;
 }
 
+a {
+    margin:auto; 
+}
+
 /*-------------------------- buttons --------------------------*/
 .button-container {
 	padding: 0 20px;
@@ -122,8 +126,8 @@ p {
 }
 
 .main-card-img {
-	height: 140px;
-	width: 280px;
+	height: 120px;
+	width: 200px;
 	margin: auto;
 }
 
