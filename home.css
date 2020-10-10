@@ -16,3 +16,176 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.navslide {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  margin: auto;
+}
+
+#carousel {
+  position: relative;
+  grid-column: 2;
+  grid-row: 1;
+  height: 15vw;
+  overflow: hidden;
+}
+
+#carousel div {
+  position: absolute;
+  transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+  opacity: 1;
+}
+
+#carousel div img {
+  height: 13vw;
+  width: auto;
+  transition: height 1s;
+}
+
+#carousel div.hideLeft {
+  left: 0%;
+  opacity: 0;
+  transform: translateY(10%) translateX(-50%);
+}
+
+#carousel div.hideLeft img {
+  height: 3vw;
+}
+
+#carousel div.hideRight {
+  left: 100%;
+  opacity: 0;
+  transform: translateY(10%) translateX(-50%);
+}
+
+#carousel div.hideRight img {
+  height: 3vw;
+}
+
+#carousel div.prev {
+  z-index: 5;
+  left: 30%;
+  transform: translateX(-50%) translateY(25%);
+}
+
+#carousel div.prev img {
+  height: 10vw;
+}
+
+#carousel div.prevLeftSecond {
+  z-index: 4;
+  left: 15%;
+  transform: translateY(75%) translateX(-50%);
+  opacity: 0.7;
+}
+
+#carousel div.prevLeftSecond img {
+  height: 5vw;
+}
+
+#carousel div.selected {
+  z-index: 10;
+  left: 50%;
+  transform: translateY(0px) translateX(-50%);
+}
+
+#carousel div.next {
+  z-index: 5;
+  left: 70%;
+  transform: translateX(-50%) translateY(25%);
+}
+
+#carousel div.next img {
+  height: 10vw;
+}
+
+#carousel div.nextRightSecond {
+  z-index: 4;
+  left: 85%;
+  transform: translateY(75%) translateX(-50%);
+  opacity: 0.7;
+}
+
+#carousel div.nextRightSecond img {
+  height: 5vw;
+}
+
+.prev img,
+.next img,
+.nextRightSecond img,
+.prevLeftSecond img {
+  opacity: 0.5;
+}
+
+.nxt {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 40px solid #f1f1f1;
+  border-bottom: 25px solid transparent;
+  grid-column: 3;
+  grid-row: 1;
+  margin: auto;
+}
+
+.prv {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-right: 40px solid #f1f1f1;
+  border-bottom: 25px solid transparent;
+  grid-column: 1;
+  grid-row: 1;
+  margin: auto;
+  z-index: 1;
+}
+
+.nxt:hover,
+.prv:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  .logo {
+    padding: 0.3rem;
+    height: 4vh;
+    width: 100vw;
+  }
+  .nxt {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 30px solid #f1f1f1;
+    border-bottom: 15px solid transparent;
+    grid-column: 3;
+    grid-row: 1;
+    margin: auto;
+  }
+
+  .prv {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 30px solid #f1f1f1;
+    border-bottom: 15px solid transparent;
+    grid-column: 1;
+    grid-row: 1;
+    margin: auto;
+    z-index: 1;
+  }
+}
+
+/* .left-icon img {
+  width: 80px;
+  padding-top: 40px;
+}
+.right-icon img {
+  width: 80px;
+  transform: rotateZ(180deg);
+  padding-top: 40px;
+}
+.left-icon:hover,
+.right-icon:hover {
+  cursor: pointer;
+} */
