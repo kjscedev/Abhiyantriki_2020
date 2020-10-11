@@ -23,31 +23,6 @@
 	justify-content: space-between;
 }
 
-.btn_details {
-	font-size: 1.25em;
-	color: white;
-	background-color: transparent;
-	border: 2px solid white;
-	border-radius: 5px;
-	padding: 2px 4px;
-	outline: 0 !important;
-}
-
-.btn_details:hover {
-	color: white;
-	background-color: rgba(255, 255, 255, 0.3);
-	transition: all 0.3s;
-}
-.hidden {
-	display: none;
-}
-
-.active-btn {
-	color: white;
-	background-color: transparent;
-	border: 2px solid white;
-}
-
 .clicked-btn {
 	color: white !important;
 	background-color: rgba(174, 0, 255, 0.8) !important;
@@ -55,7 +30,7 @@
 	border: none;
 }
 
-.example_e {
+.btn-details {
 	border: none;
 	background: #404040;
 	color: #ffffff !important;
@@ -67,7 +42,7 @@
 	transition: all 0.3s ease 0s;
 }
 
-.example_e:hover {
+.btn-details:hover {
 	color: #404040 !important;
 	font-weight: 700 !important;
 	letter-spacing: 3px;
@@ -123,19 +98,12 @@
 	}
 }
 
-/* display: flex
-flexdirection: column */
-
 /* Screen larger than 900px? 3 columns */
 @media (min-width: 900px) {
 	.cards {
 		grid-template-columns: repeat(3, 1fr);
 	}
 }
-
-/* .cards {
-	display: none;
-} */
 
 .hidden{
 	display: none;
