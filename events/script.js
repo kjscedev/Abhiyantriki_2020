@@ -3,7 +3,7 @@ $('.technical-btn').click(function(){
 	$(".informals-btn").removeClass("clicked-btn");
 	$(".shield-btn").removeClass("clicked-btn");
 	$(".preevents-btn").removeClass("clicked-btn");
-	$(".technical-btn").addClass("clicked-btn");
+	$(".technical-btn").toggleClass("clicked-btn");
 	// cards
 	$(".ideate-section").addClass("hidden");
 	$(".informals-section").addClass("hidden");
@@ -17,7 +17,7 @@ $('.ideate-btn').click(function(){
 	$(".informals-btn").removeClass("clicked-btn");
 	$(".shield-btn").removeClass("clicked-btn");
 	$(".preevents-btn").removeClass("clicked-btn");
-	$(".ideate-btn").addClass("clicked-btn");
+	$(".ideate-btn").toggleClass("clicked-btn");
 	// cards
 	$(".technical-section").addClass("hidden");
 	$(".informals-section").addClass("hidden");
@@ -31,7 +31,7 @@ $('.informals-btn').click(function(){
 	$(".ideate-btn").removeClass("clicked-btn");
 	$(".shield-btn").removeClass("clicked-btn");
 	$(".preevents-btn").removeClass("clicked-btn");
-	$(".informals-btn").addClass("clicked-btn");
+	$(".informals-btn").toggleClass("clicked-btn");
 	// cards
 	$(".technical-section").addClass("hidden");
 	$(".ideate-section").addClass("hidden");
@@ -45,7 +45,7 @@ $('.shield-btn').click(function(){
 	$(".ideate-btn").removeClass("clicked-btn");
 	$(".informals-btn").removeClass("clicked-btn");
 	$(".preevents-btn").removeClass("clicked-btn");
-	$(".shield-btn").addClass("clicked-btn");
+	$(".shield-btn").toggleClass("clicked-btn");
 	// cards
 	$(".technical-section").addClass("hidden");
 	$(".ideate-section").addClass("hidden");
@@ -59,7 +59,7 @@ $('.preevents-btn').click(function(){
 	$(".ideate-btn").removeClass("clicked-btn");
 	$(".informals-btn").removeClass("clicked-btn");
 	$(".shield-btn").removeClass("clicked-btn");
-	$(".preevents-btn").addClass("clicked-btn");
+	$(".preevents-btn").toggleClass("clicked-btn");
 	// cards
 	$(".technical-section").addClass("hidden");
 	$(".ideate-section").addClass("hidden");
