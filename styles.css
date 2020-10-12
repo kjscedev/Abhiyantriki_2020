@@ -440,6 +440,59 @@ nav li {
   animation: noise-anim-2 15s infinite linear alternate-reverse;
 }
 
+/* ------------------------About cards------------------- */
+.card-container {
+  width: 90vw;
+  padding: 0 10vw;
+  transform: translateX(-5vw);
+  margin-right: 10vw;
+} 
+
+.card-odd,
+.card-even {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-top: 5%;
+}
+
+.img-odd {
+  width: 40%;
+  float: left;
+  padding: 1%;
+}
+
+.text-odd {
+  width: 70%;
+  float: right;
+  text-align: left;
+  color: #f1f1f1; 
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.img-even {
+  width: 40%;
+  float: right;
+  padding: 1%;
+}
+
+.text-even {
+  width: 70%;
+  float: left;
+  text-align: right;
+  padding-right: 2%;
+  color: #f1f1f1;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.image {
+  width: 100%;
+}
+
 /* ------------------Responsive-------------------- */
 @media (max-width: 768px) {
   .mobile-social-media-section {
@@ -468,5 +521,28 @@ nav li {
   }
   .mobile {
     display: flex;
+  }
+  .card-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-left:5vw;
+  }
+  
+  .card-odd{
+      display: flex;
+      flex-direction: column;
+      padding: 4rem 0;
+  }
+  .card-even{
+      display: flex;
+      flex-direction: column-reverse;
+  }
+  .card-container img{
+      width: 70vw;
+  }
+  .text-even,.text-odd{
+    text-align: center;
+    margin-right:5vw;
   }
 }

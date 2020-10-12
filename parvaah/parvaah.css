@@ -73,7 +73,7 @@ li{
   width: 90vw;
   padding: 0 10vw;
   transform: translateX(-5vw);
-  margin-left: 4vw
+  margin-right: 4vw
 } 
 
 .card-odd,
@@ -149,11 +149,12 @@ li{
   }
 
   .card-container{
-      display: flex;
-      flex-direction: column;
-      width: 100vw;
-
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-left:10vw;
   }
+
   .card-odd{
       display: flex;
       flex-direction: column;
@@ -165,5 +166,9 @@ li{
   }
   .card-container img{
       width: 60vw;
+  }
+  .text-even,.text-odd{
+    text-align: center;
+    margin-right:5vw;
   }
 } 
