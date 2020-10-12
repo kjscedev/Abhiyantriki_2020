@@ -469,7 +469,7 @@ nav li {
   text-align: left;
   color: #f1f1f1; 
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .img-even {
@@ -486,11 +486,66 @@ nav li {
   color: #f1f1f1;
   margin-bottom: 10px;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .image {
   width: 100%;
+}
+
+/* -----------------------Parvaah section-------------------- */
+.parvaah-content {
+  margin: auto;
+  margin-bottom: 5vw;
+  padding-top: 7.5vw;
+  width: 70vw;
+  color: #f1f1f1;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+
+.images {
+  height: auto;
+  width: 80%;
+  position: relative;
+  top: 10%;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3vw
+}
+
+.image-l {
+  float: left;
+  width: 50%;
+  height: auto;
+  margin-right: 10%;
+}
+
+.image-r {
+  float: right;
+  width: 50%;
+  height: auto;
+  margin-right: 10%;
+}
+
+.right{
+  width: 60%;
+  padding: 2% 5%;
+  float: right;
+  margin: auto;
+  border-left: 2px solid #f1f1f1;
+}
+
+.left{
+  width: 60%;
+  padding: 2% 5%;
+  float: right;
+  margin: auto;
+}
+
+.parvaah-content-text {
+  text-align: center;
 }
 
 /* ------------------Responsive-------------------- */
@@ -526,23 +581,50 @@ nav li {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    margin-left:5vw;
   }
-  
   .card-odd{
-      display: flex;
-      flex-direction: column;
-      padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
   }
   .card-even{
-      display: flex;
-      flex-direction: column-reverse;
+    display: flex;
+    flex-direction: column-reverse;
   }
   .card-container img{
-      width: 70vw;
+    width: 70vw;
   }
   .text-even,.text-odd{
     text-align: center;
-    margin-right:5vw;
+    margin:auto;
+  }
+  .img-even,.img-odd{
+    margin-left: 4vw;
+  }
+  .parvaah-content {
+    padding-top: 0vw
+  }
+  .images {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    left: -3%
+  }
+  .image-l {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+  }
+  .image-r {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-top: 20%;
+    display: none;
+  }
+  .right{
+    border: none;
   }
 }
