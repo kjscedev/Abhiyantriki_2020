@@ -33,6 +33,42 @@ li{
 }
 
 /* -------------------------------card section--------------------------------- */
+.parvaah-content {
+  margin: auto;
+  margin-bottom: 5vw;
+  padding-top: 7.5vw;
+  width: 70vw;
+  color: #f1f1f1;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 300;
+  margin-left: 10vw;
+}
+
+.images {
+  height: auto;
+  width: 80%;
+  position: relative;
+  top: 10%;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3vw
+}
+
+.image-l {
+  float: left;
+  width: 50%;
+  height: auto;
+  margin-right: 10%;
+}
+
+.image-r {
+  float: right;
+  width: 50%;
+  height: auto;
+  margin-right: 10%;
+}
+
 .card-container {
   width: 90vw;
   padding: 0 10vw;
@@ -86,6 +122,32 @@ li{
 }
 
 @media screen and (max-width:800px) {
+  .parvaah-content {
+    padding-top: 0vw
+  }
+
+  .images {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    left: -3%
+  }
+
+  .image-l {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-top: 10%
+  }
+
+  .image-r {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-top: 20%
+  }
+
   .card-container{
       display: flex;
       flex-direction: column;
