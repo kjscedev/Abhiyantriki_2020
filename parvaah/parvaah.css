@@ -60,6 +60,8 @@ li{
   float: right;
   text-align: left;
   color: #f1f1f1; 
+  text-transform: capitalize;
+  font-size: 1rem;
 }
 
 .img-even {
@@ -75,6 +77,8 @@ li{
   padding-right: 2%;
   color: #f1f1f1;
   margin-bottom: 10px;
+  text-transform: capitalize;
+  font-size: 1rem;
 }
 
 .image {
@@ -85,7 +89,7 @@ li{
   .card-container{
       display: flex;
       flex-direction: column;
-      width: 90vw;
+      width: 100vw;
 
   }
   .card-odd{
