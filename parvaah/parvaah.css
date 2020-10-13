@@ -4,22 +4,21 @@
   z-index: 1;
   color: white;
 }
-
 .row {
   padding: 20px;
   height: 300px;
 }
 
 /* ----------------------volunteer button-------------------------- */
-.volunteer__button ul li a{
+.volunteer__button ul li a {
   color: white;
 }
 
-li{
+li {
   list-style-type: none;
 }
 
-.volunteer__button{
+.volunteer__button {
   margin: auto;
   height: auto;
   width: auto;
@@ -33,7 +32,7 @@ li{
   padding-top: 7.5vw;
   width: 70vw;
   color: #f1f1f1;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 1.2vw;
   font-weight: 300;
 }
@@ -82,8 +81,8 @@ li{
   width: 90vw;
   padding: 0 10vw;
   transform: translateX(-5vw);
-  margin-right: 4vw
-} 
+  margin-right: 4vw;
+}
 
 .card-odd,
 .card-even {
@@ -104,7 +103,7 @@ li{
   width: 70%;
   float: right;
   text-align: left;
-  color: #f1f1f1; 
+  color: #f1f1f1;
   text-transform: capitalize;
   font-size: 1rem;
 }
@@ -130,7 +129,7 @@ li{
   width: 100%;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .parvaah-content {
     padding-top: 0vw;
     margin: auto;
@@ -141,7 +140,7 @@ li{
     flex-direction: column;
     margin: auto;
     position: relative;
-    left: -3%
+    left: -3%;
   }
 
   .image-l {
@@ -150,7 +149,7 @@ li{
     height: auto;
     margin-top: 10%;
   }
-  
+
   .image-r {
     float: none;
     width: 100%;
@@ -160,27 +159,28 @@ li{
   .right {
     border: none;
   }
-  .card-container{
+  .card-container {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    margin-left:10vw;
+    margin-left: 10vw;
   }
 
-  .card-odd{
-      display: flex;
-      flex-direction: column;
-      padding: 4rem 0;
+  .card-odd {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
   }
-  .card-even{
-      display: flex;
-      flex-direction: column-reverse;
+  .card-even {
+    display: flex;
+    flex-direction: column-reverse;
   }
-  .card-container img{
-      width: 60vw;
+  .card-container img {
+    width: 60vw;
   }
-  .text-even,.text-odd{
+  .text-even,
+  .text-odd {
     text-align: center;
-    margin-right:5vw;
+    margin-right: 5vw;
   }
-} 
+}
