@@ -51,6 +51,7 @@
 	letter-spacing: 3px;
 	font-weight: 600 !important;
 	border: none !important;
+	/* margin: auto; */
 }
 
 .btn-details:focus {
