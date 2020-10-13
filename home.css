@@ -449,8 +449,8 @@ nav {
   .img-about {
     width: 100%;
   }
-  .card1{
-    flex-direction: column-reverse !important;
+  .card1 {
+    flex-direction: column;
   }
   .card1,
   .card2 {
