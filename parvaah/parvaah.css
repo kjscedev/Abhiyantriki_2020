@@ -10,13 +10,6 @@
   height: 300px;
 }
 
-.flower {
-  background-image: url("https://images.unsplash.com/photo-1487530811176-3780de880c2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /* ----------------------volunteer button-------------------------- */
 .volunteer__button ul li a{
   color: white;
@@ -34,15 +27,15 @@ li{
 
 /* -------------------------------card section--------------------------------- */
 .parvaah-content {
-  margin: auto;
+  /* margin: auto; */
   margin-bottom: 5vw;
+  margin-left: 4vw;
   padding-top: 7.5vw;
   width: 70vw;
   color: #f1f1f1;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 1.2vw;
   font-weight: 300;
-  margin-left: 10vw;
 }
 
 .images {
@@ -52,8 +45,8 @@ li{
   top: 10%;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 3vw;
-  margin-left: 4vw;
+  margin: 0 auto 0 auto;
+  align-content: center !important;
 }
 
 .image-l {
@@ -68,6 +61,21 @@ li{
   width: 50%;
   height: auto;
   margin-right: 10%;
+}
+
+.right {
+  width: 60%;
+  padding: 2% 5%;
+  float: right;
+  margin: auto;
+  border-left: 2px solid #f1f1f1;
+}
+
+.left {
+  width: 60%;
+  padding: 2% 5%;
+  float: right;
+  margin: auto;
 }
 
 .card-container {
@@ -125,6 +133,7 @@ li{
 @media screen and (max-width:800px) {
   .parvaah-content {
     padding-top: 0vw;
+    margin: auto;
   }
 
   .images {
@@ -141,14 +150,16 @@ li{
     height: auto;
     margin-top: 10%;
   }
-
+  
   .image-r {
     float: none;
     width: 100%;
     height: auto;
     margin-top: 20%;
   }
-
+  .right {
+    border: none;
+  }
   .card-container{
     display: flex;
     flex-direction: column;
