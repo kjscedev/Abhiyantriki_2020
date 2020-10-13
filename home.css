@@ -155,9 +155,6 @@ nav {
   display: flex;
   margin: 50px auto !important;
 }
-.card2 {
-  text-align: right;
-}
 .img-about {
   width: 40%;
 }
@@ -200,6 +197,7 @@ nav {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 1.2vw;
   font-weight: 300;
+  align-content: center !important;
 }
 
 .images {
@@ -210,6 +208,7 @@ nav {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 3vw;
+  align-content: center !important;
 }
 
 .image-l {
@@ -242,11 +241,13 @@ nav {
 }
 
 .parvaah-content-text {
+  align-content: center !important;
   text-align: center;
 }
 
 .know-more {
   text-align: center;
+  align-content: center;
 }
 .know-more button {
   color: white;
