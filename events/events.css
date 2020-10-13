@@ -10,6 +10,18 @@
 	height: 300px;
 }
 
+/* ------------------------Event GIF------------------------- */
+#particles-js{
+	z-index: -1;
+	background-attachment: fixed;
+}
+  
+.event{
+	margin: 10vh;
+	font-size: 10vw;
+	z-index: 1;
+}
+
 /*-------------------------- buttons --------------------------*/
 .buttons-container {
 	margin: 0 10%;
