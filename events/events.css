@@ -11,12 +11,9 @@
 }
 
 /*-------------------------- buttons --------------------------*/
-.button_container {
+.buttons-container {
 	margin: 0 10%;
 	padding-top: 50px;
-}
-
-.buttons-flex {
 	display: -webkit-flex;
 	display: flex;
 	-webkit-justify-content: space-between;
@@ -40,12 +37,17 @@
 	border-radius: 6px;
 	display: inline-block;
 	transition: all 0.3s ease 0s;
+	letter-spacing: 3px;
+	font-weight: 600 !important;
+	border: none !important;
+}
+
+.btn-details:focus {
+	outline: none;
 }
 
 .btn-details:hover {
 	color: #404040 !important;
-	font-weight: 700 !important;
-	letter-spacing: 3px;
 	background: none;
 	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -63,7 +65,6 @@
 }
 
 .card {
-	background-color: dodgerblue;
 	/* color: white; */
 	padding: 1rem;
 	height: auto;
@@ -89,6 +90,12 @@
 .card-info {
 	font-size: 1.25em;
 	text-align: center;
+}
+
+@media screen and (max-width: 800px){
+	.buttons-container{
+		flex-direction: column;
+	}
 }
 
 /* Screen larger than 600px? 2 column */
