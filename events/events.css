@@ -93,8 +93,24 @@
 }
 
 @media screen and (max-width: 800px){
+	.cards{
+		display: flex;
+		flex-direction: column;
+	}
+	.card{
+		width: 100%;
+	}
 	.buttons-container{
 		flex-direction: column;
+		/* margin: auto !important; */
+		/* align-content: center; */
+	}
+	* {
+		margin: auto;
+	}
+	.btn-details {
+		margin: auto !important;
+		/* align-content: center; */
 	}
 }
 
