@@ -70,4 +70,5 @@ $('.preevents-btn').click(function(){
 
 if (window.innerWidth < 768){
 	$(".technical-section").addClass("hidden");
+	$(".technical-btn").removeClass("clicked-btn")
 }
