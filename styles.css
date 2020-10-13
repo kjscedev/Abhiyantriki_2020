@@ -178,6 +178,7 @@ nav li {
 /* ---------------------- Navigation links -------------------------- */
 .nav-btn {
   position: relative;
+  padding: 10px;
 }
 .nav-btn:hover:before {
   height: 100%;
@@ -482,6 +483,7 @@ nav li {
   }
   .mobile {
     display: flex;
+    text-align: center;
   }
   .follow {
     margin-top: 50px;
@@ -493,6 +495,6 @@ nav li {
   }
   .dev {
     font-size: 1rem;
-    margin-top: 40px;
+    margin: 40px auto;
   }
 }
