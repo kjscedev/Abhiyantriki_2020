@@ -49,3 +49,4 @@ $("#sponsor_2017").click(function () {
 if (window.innerWidth < 768) {
   $(".sec1").addClass("hidden");
 }
+
