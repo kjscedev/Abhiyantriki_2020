@@ -23,7 +23,6 @@
 .clicked-btn {
 	color: white !important;
 	background-color: rgba(174, 0, 255, 0.8) !important;
-	/* border: 2px solid white !important; */
 	border: none;
 }
 
@@ -48,7 +47,7 @@
 
 .btn-details:hover {
 	color: #404040 !important;
-	background: none;
+	background-color: rgb(212, 226, 224);
 	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 	transition: all 0.3s ease 0s;
@@ -92,7 +91,7 @@
 	text-align: center;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 768px){
 	.cards{
 		display: flex;
 		flex-direction: column;
@@ -102,24 +101,28 @@
 	}
 	.buttons-container{
 		flex-direction: column;
-		/* margin: auto !important; */
-		/* align-content: center; */
 	}
 	* {
 		margin: auto;
 	}
 	.btn-details {
-		margin: auto !important;
-		/* align-content: center; */
+		background: #404040;
+		color: #ffffff !important;
+		padding: 10px;
+		margin-bottom: 5px;
+	}
+	.clicked-btn {
+		color: white !important;
+		background-color: rgba(174, 0, 255, 0.8);
 	}
 }
 
 /* Screen larger than 600px? 2 column */
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
 	.cards {
 		grid-template-columns: repeat(2, 1fr);
 	}
-}
+} */
 
 /* Screen larger than 900px? 3 columns */
 @media (min-width: 900px) {
