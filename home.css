@@ -11,7 +11,16 @@ nav {
   margin-top: 20px;
   color: white;
 }
+/* ------------------------Event GIF------------------------- */
+#particles-js{
+  z-index: -1;
+}
 
+.event{
+  margin: auto;
+  font-size: 30vw;
+  padding: 20px;
+}
 /* --------------------------- Carousel ---------------------------- */
 
 .navslide {
