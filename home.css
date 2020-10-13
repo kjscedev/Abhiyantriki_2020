@@ -11,14 +11,7 @@ nav {
   margin-top: 20px;
   color: white;
 }
-/* ----------------------- Abhiyantriki Gif ------------------------ */
-.abhiyantriki_animation {
-  width: 50%;
-  margin: auto;
-}
-.abhiyantriki_animation img {
-  width: 100%;
-}
+
 /* --------------------------- Carousel ---------------------------- */
 
 .navslide {
@@ -176,15 +169,13 @@ nav {
   text-transform: uppercase;
 }
 .isro-img img {
-  width: 60%;
-  margin: auto;
-  float: right;
+  width: 90%;
 }
 .isro-section h3 {
   font-weight: 700;
 }
-.heading {
-  padding: 0 50px;
+.isro-img {
+  padding-left: 10%;
 }
 .heading span {
   font-size: 1.75rem;
@@ -271,11 +262,11 @@ nav {
   width: 60%;
   margin: auto;
   margin-top: 60px;
+  line-height: 1.5;
   /* border: 1px solid white; */
 }
 .reach-us {
   display: flex;
-  line-height: 1.6;
 }
 #contact-section h3 {
   font-size: 1.6rem;
@@ -292,35 +283,13 @@ nav {
   flex-direction: column;
   align-items: center;
   font-size: 1.2rem;
-  line-height: 1.2;
 }
 .contact-links a {
   padding-top: 10px;
 }
-/* ---------------------------- Timeline ---------------------------*/
-.timeline {
-  width: 85%;
-  margin: auto;
-  margin-top: 70px;
-}
-.timeline-pc img {
-  width: 100%;
-}
-.timeline-mobile {
-  display: none;
-}
 /* ------------------------- Media Sectioon ------------------------ */
 
 @media screen and (max-width: 800px) {
-  /* -------------- Abhiyantriki gif --------------- */
-  .abhiyantriki_animation {
-    width: 100%;
-    margin: auto;
-  }
-  .abhiyantriki_animation img {
-    width: 100%;
-  }
-  /* -------------- Carousel --------------- */
   #carousel {
     height: 350px;
   }
@@ -466,38 +435,16 @@ nav {
   .isro-section {
     display: block;
   }
-  .isro-img img {
-    float: none;
-  }
   .heading {
     text-align: center;
   }
-  /* .head {
+  .head {
     font-size: 2.5rem;
-  } */
-  .heading {
+  }
+  .heading span {
     display: none;
   }
   .heading h3 {
-    display: none;
-  }
-  .isro-img {
-    margin: auto;
-    text-align: center;
-  }
-  /* ---------- Timeline ------------- */
-  .timeline {
-    width: 100%;
-    height: 120%;
-    margin: 40px auto;
-  }
-  .timeline-mobile {
-    display: block;
-  }
-  .timeline-mobile img {
-    width: 100%;
-  }
-  .timeline-pc {
     display: none;
   }
   /* -------- Parvaah Section -------- */
@@ -542,7 +489,6 @@ nav {
   }
   .reach-us {
     display: block;
-    line-height: 1.3;
   }
   #contact-section h3 {
     font-size: 1.4rem;
@@ -558,9 +504,5 @@ nav {
   }
   .contact-links a {
     padding-top: 10px;
-  }
-  .white:hover {
-    font-size: 5rem;
-    text-decoration: none;
   }
 }
