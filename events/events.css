@@ -10,6 +10,36 @@
 	height: 300px;
 }
 
+button:focus {
+	outline: none;
+}
+
+/* ------------------------Event GIF------------------------- */
+.custom-modal{
+	color: black;
+	/* padding: 10px; */
+}
+
+.modal-header {
+	color: white;
+	background-color: rgba(174, 0, 255, 0.8);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0));
+}
+
+hr + div{
+	align-content: right;
+	text-align: right;
+}
+
+ul, li {
+	margin-left: 20px;
+}
+
 /* ------------------------Event GIF------------------------- */
 #particles-js{
 	z-index: -1;
