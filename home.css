@@ -208,6 +208,7 @@ nav {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 3vw;
+  margin: 0vw auto 3vw auto;
   align-content: center !important;
 }
 
