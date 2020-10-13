@@ -257,7 +257,7 @@ nav {
   border: none;
 }
 
-/* ------------------------- Contatc Section ----------------------- */
+/* ------------------------- Contact Section ----------------------- */
 #contact-section {
   width: 60%;
   margin: auto;
@@ -417,6 +417,9 @@ nav {
   }
   .img-about {
     width: 100%;
+  }
+  .card1{
+    flex-direction: column-reverse !important;
   }
   .card1,
   .card2 {
