@@ -4,6 +4,16 @@
 .inner {
   margin: auto 5%;
 }
+.loader-gif {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url("./img/loadu3.gif") 50% 50% no-repeat black;
+  background-size: contain;
+}
 nav {
   margin: 0 !important;
 }

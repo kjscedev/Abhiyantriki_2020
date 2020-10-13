@@ -61,7 +61,7 @@ body {
   display: flex;
   justify-content: end;
   align-items: end;
-  animation: loading 5s ease-in-out forwards;
+  animation: loading 4s ease-in-out forwards;
 }
 svg {
   width: 200px;
