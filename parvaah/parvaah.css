@@ -52,7 +52,8 @@ li{
   top: 10%;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 3vw
+  margin-bottom: 3vw;
+  margin-left: 4vw;
 }
 
 .image-l {
