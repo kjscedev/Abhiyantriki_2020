@@ -181,12 +181,15 @@ nav {
 
 /* ------------------------- ISRO Section --------------------------- */
 .isro-section {
-  margin-top: 50px;
+  margin-top: 80px;
   display: flex;
   text-transform: uppercase;
 }
+.isro-img {
+  display: flex;
+}
 .isro-img img {
-  width: 60%;
+  width: 40%;
   margin: auto;
   float: right;
 }
@@ -194,7 +197,8 @@ nav {
   font-weight: 700;
 }
 .heading {
-  padding: 0 50px;
+  padding: 0 20px;
+  width: 50%;
 }
 .heading span {
   font-size: 1.75rem;
@@ -203,6 +207,13 @@ nav {
 .head {
   font-size: 5rem;
   font-weight: 700;
+  line-height: 1;
+}
+.isro-text {
+  width: 80%;
+  margin: 25px auto;
+  font-size: 1.05rem;
+  text-align: center;
 }
 
 /* -----------------------Parvaah section-------------------- */
@@ -476,6 +487,9 @@ nav {
   .isro-section {
     display: block;
   }
+  .isro-img {
+    display: flex;
+  }
   .isro-img img {
     float: none;
   }
@@ -494,6 +508,9 @@ nav {
   .isro-img {
     margin: auto;
     text-align: center;
+  }
+  .isro-text {
+    font-size: 1rem;
   }
   /* ---------- Timeline ------------- */
   .timeline {
