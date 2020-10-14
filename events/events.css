@@ -157,9 +157,10 @@ hr + div {
   .buttons-container {
     flex-direction: column;
   }
-  * {
+  .buttons-container span {
     margin: auto;
   }
+
   .btn-details {
     background: #404040;
     color: #ffffff !important;
