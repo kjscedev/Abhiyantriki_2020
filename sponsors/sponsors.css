@@ -102,7 +102,7 @@ p {
 
 /* Handle on hover */
 .scroller::-webkit-scrollbar-thumb:hover {
-  background: rgb(174, 0, 255);
+  background: purple;
 }
 
 .hidden {
@@ -110,7 +110,7 @@ p {
 }
 
 .clicked-btn {
-  background: rgb(174, 0, 255);
+  background: purple;
   color: white;
 }
 
