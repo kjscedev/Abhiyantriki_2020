@@ -158,6 +158,9 @@ ul, li {
 		color: white !important;
 		background-color: rgba(174, 0, 255, 0.8);
 	}
+	.modal-header{
+		width: 100%;
+	}
 }
 
 /* Screen larger than 600px? 2 column */
