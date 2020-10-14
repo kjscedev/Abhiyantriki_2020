@@ -36,27 +36,20 @@ hr + div{
 	text-align: right;
 }
 
-ul, li {
+.list-indent {
 	margin-left: 20px;
 }
 
 /* ------------------------Event GIF------------------------- */
-.header{
-	height: 400px;
-	margin:auto;
-}
-
 #particles-js{
 	z-index: -1;
-	background-attachment: initial;
+	background-attachment: fixed;
 }
   
 .event{
-	margin: auto;
+	margin: 10vh;
 	font-size: 10vw;
 	z-index: 1;
-	text-align: center;
-	padding-top: 10vw;
 }
 
 /*-------------------------- buttons --------------------------*/
@@ -164,6 +157,9 @@ ul, li {
 	.clicked-btn {
 		color: white !important;
 		background-color: rgba(174, 0, 255, 0.8);
+	}
+	.modal-header{
+		width: 100%;
 	}
 }
 
