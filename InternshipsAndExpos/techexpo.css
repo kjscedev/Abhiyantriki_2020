@@ -24,58 +24,7 @@ li {
   width: auto;
 }
 
-/* -------------------------------card section--------------------------------- */
-/* .parvaah-content {
-  margin: auto;
-  margin-bottom: 5vw;
-  margin-left: 4vw;
-  padding-top: 7.5vw;
-  width: 70vw;
-  color: #f1f1f1;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 1.2vw;
-  font-weight: 300;
-}
-
-.images {
-  height: auto;
-  width: 80%;
-  position: relative;
-  top: 10%;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0 auto 0 auto;
-  align-content: center !important;
-}
-
-.image-l {
-  float: left;
-  width: 50%;
-  height: auto;
-  margin-right: 10%;
-}
-
-.image-r {
-  float: right;
-  width: 50%;
-  height: auto;
-  margin-right: 10%;
-}
-
-.right {
-  width: 60%;
-  padding: 2% 5%;
-  float: right;
-  margin: auto;
-  border-left: 2px solid #f1f1f1;
-}
-
-.left {
-  width: 60%;
-  padding: 2% 5%;
-  float: right;
-  margin: auto;
-} */
+/* -------------------------------Tech Expo section--------------------------------- */
 
 .card-container {
   width: 90vw;
@@ -94,14 +43,14 @@ li {
 }
 
 .img-odd {
-  width: 40%;
+  width: 60%;
   float: left;
   padding: 1%;
   height: auto;
 }
 
 .text-odd {
-  width: 70%;
+  width: 100%;
   float: right;
   text-align: left;
   color: #f1f1f1;
@@ -111,16 +60,15 @@ li {
 }
 
 .img-even {
-  width: 40%;
+  width: 60%;
   float: right;
   padding: 1%;
   height: auto;
 }
 
 .text-even {
-  width: 70%;
+  width: 100%;
   float: left;
-  /* text-align: right; */
   text-align: justify;
   padding-right: 2%;
   color: #f1f1f1;
@@ -186,6 +134,6 @@ li {
   .text-even,
   .text-odd {
     text-align: center;
-    margin-left: 5vw;
+    margin-right: 5vw;
   }
 }
