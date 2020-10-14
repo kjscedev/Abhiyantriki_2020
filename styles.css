@@ -5,10 +5,11 @@
 }
 
 body {
+  /* background: linear-gradient(to bottom, #2c1849, #1e1033); */
   background-color: #1e1033;
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 /* ------------------------- Logos ----------------------------  */
 
@@ -236,6 +237,36 @@ nav li {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.6);
+}
+/* -------------------------------- Header ----------------------------- */
+.overlay-head {
+  width: 90vw;
+  margin-bottom: 25px;
+}
+canvas {
+  display: block;
+  /* vertical-align: bottom; */
+} /* ---- particles.js container ---- */
+#particles-js {
+  /* position: absolute; */
+  width: 60vw;
+  margin: auto;
+  height: 40vh;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -3;
+}
+#particles-js h1 {
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0vw;
+  right: 0;
 }
 /* ---------------------------- Glitch Effect ---------------------------- */
 
@@ -499,5 +530,19 @@ nav li {
   }
   #abhiyantriki-logo img {
     width: 200px;
+  }
+  .overlay-head {
+    margin-bottom: 15px;
+  }
+  #particles-js {
+    height: 30vh;
+    width: 90vw;
+  }
+  #particles-js h1 {
+    font-size: 3.5rem;
+  }
+  .parvaah-content {
+    padding-top: 0vw;
+    margin: auto;
   }
 }

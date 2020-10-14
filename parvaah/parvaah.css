@@ -1,6 +1,7 @@
 .container {
   margin-top: 20px;
   /* height: 300px; */
+  position: relative;
   z-index: 1;
   color: white;
 }
@@ -9,6 +10,34 @@
   height: 300px;
 }
 
+.overlay-head {
+  width: 90vw;
+}
+canvas {
+  display: block;
+  /* vertical-align: bottom; */
+} /* ---- particles.js container ---- */
+#particles-js {
+  /* position: absolute; */
+  width: 60vw;
+  margin: auto;
+  height: 40vh;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -3;
+}
+#particles-js h1 {
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0vw;
+  right: 0;
+}
 /* ----------------------volunteer button-------------------------- */
 .volunteer__button ul li a {
   color: white;
@@ -130,6 +159,16 @@ li {
 }
 
 @media screen and (max-width: 800px) {
+  .overlay-head {
+    margin-bottom: 15px;
+  }
+  #particles-js {
+    height: 30vh;
+    width: 90vw;
+  }
+  #particles-js h1 {
+    font-size: 3.5rem;
+  }
   .parvaah-content {
     padding-top: 0vw;
     margin: auto;
