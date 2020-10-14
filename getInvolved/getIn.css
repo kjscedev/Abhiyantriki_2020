@@ -3,6 +3,7 @@
   height: 300px;
   z-index: 1;
   color: white;
+  position: relative;
 }
 
 .row {
@@ -12,7 +13,7 @@
   font-size: 1.1rem;
 }
 
-.text{
+.text {
   text-align: center;
   margin: 5vh 15vh;
 }
@@ -27,7 +28,8 @@ h2{
   text-align: center;
 } */
 /* ----------------------nominate partner button-------------------------- */
-.nominate__button ul li a,.partner__button ul li a {
+.nominate__button ul li a,
+.partner__button ul li a {
   color: white;
 }
 
@@ -35,7 +37,8 @@ li {
   list-style-type: none;
 }
 
-.nominate__button,.partner__button {
+.nominate__button,
+.partner__button {
   margin: auto;
   height: auto;
   width: auto;
@@ -43,8 +46,12 @@ li {
 }
 
 @media screen and (max-width: 800px) {
-  .text,.heading{
-    margin:auto;
+  .text,
+  .heading {
+    margin: auto;
+  }
+  .push-down {
+    margin-top: 150px;
   }
   /* h2{
     font-size: 5vh;
