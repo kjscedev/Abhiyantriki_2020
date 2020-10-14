@@ -262,6 +262,7 @@ canvas {
   text-align: center;
   font-size: 4.5rem;
   font-weight: 700;
+  text-transform: uppercase;
   position: absolute;
   top: 50px;
   bottom: 0;
