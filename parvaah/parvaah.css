@@ -1,6 +1,6 @@
 .container {
   margin-top: 20px;
-  height: 300px;
+  /* height: 300px; */
   z-index: 1;
   color: white;
 }
@@ -96,13 +96,13 @@ li {
 .img-odd {
   width: 30%;
   float: left;
-  padding: 1%;
 }
 
-.text-odd {
-  width: 70%;
-  float: right;
-  text-align: left;
+.text {
+  width: 80%;
+  margin: auto;
+  /* float: right; */
+  padding: 15px;
   color: #f1f1f1;
   text-transform: capitalize;
   font-size: 1rem;
@@ -162,25 +162,35 @@ li {
   .card-container {
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    margin-left: 10vw;
+    /* width: 100%; */
+    /* margin-left: 10vw; */
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .card-odd {
     display: flex;
     flex-direction: column;
-    padding: 4rem 0;
+    /* align-items: center; */
+    padding: 40px 0;
+    text-align: center;
   }
   .card-even {
     display: flex;
     flex-direction: column-reverse;
   }
   .card-container img {
-    width: 60vw;
-  }
-  .text-even,
-  .text-odd {
+    width: 80vw;
     text-align: center;
-    margin-right: 5vw;
+    margin: auto;
+    margin-left: 40%;
+  }
+  .text {
+    width: 85%;
+    margin: auto;
+    margin-left: 15%;
   }
 }

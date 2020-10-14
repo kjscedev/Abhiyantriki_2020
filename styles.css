@@ -443,7 +443,7 @@ nav li {
 
 .dev {
   font-size: 1rem;
-  margin-top: 50px;
+  margin: 50px auto 40px;
   cursor: pointer;
   text-align: center;
 }
@@ -496,5 +496,8 @@ nav li {
   .dev {
     font-size: 1rem;
     margin: 40px auto;
+  }
+  #abhiyantriki-logo img {
+    width: 200px;
   }
 }
