@@ -7,12 +7,48 @@
 
 .row {
   padding: 20px;
-  height: 300px;
+  height: 200px;
+  margin-bottom: 10vh;
+  font-size: 1.1rem;
 }
 
-.flower {
-  background-image: url("https://images.unsplash.com/photo-1487530811176-3780de880c2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.text{
+  text-align: center;
+  margin: 5vh 15vh;
 }
+
+/* .heading{
+  text-transform: uppercase;
+  margin: 5vh 10vh;
+}
+
+h2{
+  font-size: 13vh;
+  text-align: center;
+} */
+/* ----------------------nominate partner button-------------------------- */
+.nominate__button ul li a,.partner__button ul li a {
+  color: white;
+}
+
+li {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.nominate__button,.partner__button {
+  margin: auto;
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+/* @media screen and (max-width: 800px) {
+  .text,.heading{
+    margin:auto;
+  }
+  h2{
+    font-size: 5vh;
+    text-align: center;
+  }
+} */
