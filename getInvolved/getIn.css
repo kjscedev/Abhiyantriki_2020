@@ -44,11 +44,11 @@ li {
 }
 
 @media screen and (max-width: 800px) {
-  /* .text,.heading{
+  .text,.heading{
     margin:auto;
-  } */
-  h2{
+  }
+  /* h2{
     font-size: 5vh;
     text-align: center;
-  }
+  } */
 }
