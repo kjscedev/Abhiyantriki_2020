@@ -41,15 +41,22 @@ ul, li {
 }
 
 /* ------------------------Event GIF------------------------- */
+.header{
+	height: 400px;
+	margin:auto;
+}
+
 #particles-js{
 	z-index: -1;
-	background-attachment: fixed;
+	background-attachment: initial;
 }
   
 .event{
-	margin: 10vh;
+	margin: auto;
 	font-size: 10vw;
 	z-index: 1;
+	text-align: center;
+	padding-top: 10vw;
 }
 
 /*-------------------------- buttons --------------------------*/
