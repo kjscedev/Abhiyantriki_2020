@@ -288,7 +288,7 @@ nav {
 }
 
 /* ------------------------- Contact Section ----------------------- */
-.contact-header{
+.contact-header {
   margin-top: 60px;
   display: block;
   text-align: center;
@@ -596,7 +596,7 @@ nav {
     padding-top: 10px;
   }
   .white:hover {
-    font-size: 5rem;
+    /* font-size: 5rem; */
     text-decoration: none;
   }
 }
