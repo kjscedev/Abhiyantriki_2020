@@ -16,7 +16,7 @@ button:focus {
 }
 
 .dev {
-	display: block;
+  display: block;
 }
 
 /* ------------------------Event GIF------------------------- */
@@ -29,7 +29,9 @@ button:focus {
   color: white;
   background-color: rgba(174, 0, 255, 0.8);
 }
-
+.modal-backdrop {
+  position: inherit;
+}
 hr {
   border: 0;
   height: 1px;
