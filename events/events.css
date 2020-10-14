@@ -14,6 +14,10 @@ button:focus {
 	outline: none;
 }
 
+.dev {
+	display: block;
+}
+
 /* ------------------------Event GIF------------------------- */
 .custom-modal{
 	color: black;
