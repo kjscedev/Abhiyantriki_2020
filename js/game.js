@@ -37,7 +37,7 @@ let pointerScene = { x: 0, y: 0 };
 // Minimum speed of pointer before "hits" are counted.
 const minPointerSpeed = 60;
 // The hit speed affects the direction the target post-hit. This number dampens that force.
-const hitDampening = 0.1;
+const hitDampening = 0;
 // Backboard receives shadows and is the farthest negative Z position of entities.
 const backboardZ = -400;
 const shadowColor = '#262e36';

@@ -21,8 +21,8 @@ body {
 }
 
 #c {
-	height: 50vh !important;
-	width: 50vw !important;
+	height: 100vh !important;
+	width: 100vw !important;
 
 	display: flex;
 	touch-action: none;
