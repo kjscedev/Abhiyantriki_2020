@@ -5,6 +5,7 @@
 
 body {
     overflow-x: hidden !important;
+	background-image: linear-gradient(#11112D, #0D0C12);
 }
 
 .game {
@@ -39,6 +40,7 @@ body {
 .pause-btn {
 	position: absolute;
 	font-size: calc(14px + 2vw + 1vh);
+	margin-right: 1em;
 }
 
 .hud__score {
@@ -188,22 +190,6 @@ body {
 
 
 /* Common menu elements */
-
-h1 {
-	font-size: 4rem;
-	line-height: 0.95;
-	text-align: center;
-	font-weight: bold;
-	margin: 0 0.65em 1em;
-}
-
-h2 {
-	font-size: 1.2rem;
-	line-height: 1;
-	text-align: center;
-	font-weight: bold;
-	margin: -1em 0.65em 1em;
-}
 
 .final-score-lbl {
 	font-size: 5rem;
