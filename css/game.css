@@ -20,6 +20,9 @@ body {
 }
 
 #c {
+	height: 50vh !important;
+	width: 50vw !important;
+
 	display: flex;
 	touch-action: none;
 	transform: translateZ(0);
