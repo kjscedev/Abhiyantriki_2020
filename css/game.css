@@ -9,6 +9,10 @@ body {
 	
 }
 
+#coming-soon-txt {
+	font-size: 4rem !important;
+}
+
 .game {
 	background-color: var(--game-canvas-bg);
 	color: var(--game-text-color);
