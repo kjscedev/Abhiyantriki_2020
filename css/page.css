@@ -1,0 +1,18 @@
+.top-container {
+	height: 100vh;
+	width: 100vw;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.top-left-container {
+    max-width: 50vw;
+}
+
+.top-right-container {
+    max-width: 50vw;
+}

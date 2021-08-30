@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +9,39 @@
     <title>Abhiyantriki 2021</title>
 
     <link rel="stylesheet" href="./css/game.css">
+    <link rel="stylesheet" href="./css/page.css">
   </head>
 
   <body>
 
-    <h1>Abhiyantriki 2021</h1>
-    <h2>coming soon</h2>
+    <div class="top-container">
+
+      <div class="top-left-container">
+        <h1>Abhiyantriki logo</h1>
+        <p>
+          It’s showtime!! Allow us to present to you, one of the most anticipated events of the year, the one and only, Abhiyantriki 2021! 
+        </p>
+        <p>
+          From showcasing mind-blowing technical marvels innovated around the country to conducting electrifying competitions, our annual technical festival is one that you do not want to miss.
+        <p>Stick around for all things!
+        <p>image</p>
+      </div>
+
+      <div class="top-right-container">
+        <h2>play game button</h2>
+      </div>
+
+    </div>
 
 
     <!-- GAME -->
-    <div class="game">
+    <div class="game game-container">
+
       <!-- Game canvas -->
       <canvas 
         id="c"
       ></canvas>
+
       <!-- Gameplay HUD -->
       <div class="hud">
         <div class="hud__score">
@@ -32,6 +53,7 @@
           <div class="slowmo__bar"></div>
         </div>
       </div>
+
       <!-- Menu System -->
       <div class="menus">
         <div class="menu menu--main">
@@ -57,7 +79,7 @@
 
     <!-- scripts -->
     <script src="./js/game.js"></script>
-
+    
   </body>
 
 </html>
