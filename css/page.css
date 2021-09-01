@@ -54,4 +54,7 @@
   .img-height-sm {
     height: 30px;
   }
+  .img-height-lg {
+    height: 150px;
+  }
 }
