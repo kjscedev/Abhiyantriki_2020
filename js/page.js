@@ -1,21 +1,23 @@
-$('.scroll').click(function(e) {
-    
-    console.error('here afdsjl')
+$(".scroll").click(function (e) {
+  console.error("here afdsjl");
 
-    e.preventDefault();
-    var target = $(this).attr('href');
+  e.preventDefault();
+  var target = $(this).attr("href");
 
-    if (target.length < 2) return
+//   console.log(target);
 
-    var element = document.querySelector(target);
+  if (target.length < 2) return;
 
-    if (element) {
-        var offsetPosition = element.getBoundingClientRect().top;
-    
-        element.scrollIntoView({
-            top: offsetPosition,
-            behavior: "smooth"
-        });
-    }
-    
+  var element = document.querySelector(target);
+
+  if (element) {
+    var offsetPosition = element.getBoundingClientRect().top;
+
+    element.scrollIntoView({
+      top: offsetPosition,
+      behavior: "smooth",
+    });
+  }
 });
+
+

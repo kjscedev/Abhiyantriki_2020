@@ -1,79 +1,104 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abhiyantriki 2021</title>
 
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
     <!-- custom css -->
-    <link rel="stylesheet" href="./css/game.css">
-    <link rel="stylesheet" href="./css/page.css">
+    <link rel="stylesheet" href="./css/game.css" />
+    <link rel="stylesheet" href="./css/page.css" />
   </head>
 
   <body>
-
     <ul class="nav p-3 justify-content-between" id="nav-bar">
-
       <li class="nav-item">
-        <img class="img-height-sm" src="./assets/icons/ab-name-right-white.png" alt="" srcset="">
+        <img
+          class="img-height-sm"
+          src="./assets/icons/ab-name-right-white.png"
+          alt=""
+          srcset=""
+        />
       </li>
 
       <li class="nav-item">
-        <img class="img-height-sm me-2" src="./assets/icons/somaiya-trust.png" alt="" srcset="">
-        <img class="img-height-sm" src="./assets/icons/somaiya-white-logo.png" alt="" srcset="">
+        <img
+          class="img-height-sm me-2"
+          src="./assets/icons/somaiya-trust.png"
+          alt=""
+          srcset=""
+        />
+        <img
+          class="img-height-sm"
+          src="./assets/icons/somaiya-white-logo.png"
+          alt=""
+          srcset=""
+        />
       </li>
-      
     </ul>
 
-    <div class="container top-container">
+    <div class="container top-container" id="topScreen">
       <div class="row">
-
         <div class="col-sm-6 col-md-6">
           <div class="flex-and-center">
             <div>
-              <img class="img-height-lg" src="./assets/icons/ab-white.png" alt="" srcset="">
-            </div>           
+              <img
+                class="img-height-lg"
+                src="./assets/icons/ab-white.png"
+                alt=""
+                srcset=""
+              />
+            </div>
             <div class="m-5">
               <p class="text-center">
-                It’s showtime!! Allow us to present to you, one of the most anticipated events of the year, the one and only, Abhiyantriki 2021!
-                From showcasing mind-blowing technical marvels innovated around the country to conducting electrifying competitions, our annual technical festival is one that you do not want to miss.
+                It’s showtime!! Allow us to present to you, one of the most
+                anticipated events of the year, the one and only, Abhiyantriki
+                2021! From showcasing mind-blowing technical marvels innovated
+                around the country to conducting electrifying competitions, our
+                annual technical festival is one that you do not want to miss.
                 Stick around for all things!
               </p>
             </div>
             <div>
-              <a href="https://drive.google.com/drive/folders/1z6ffBX3UuAFrBzZgIb2HqpfuBPoyhGpt?fbclid=IwAR2Z-rvkI7gR0ibYzbghv_Boy-1ISiQA-ZtDHxa64D9OtWUDY6uevuQYMuE">
-                <img class="img-height-md" src="./assets/images/gallery_icon.png" alt="" srcset="">
+              <a
+                href="https://drive.google.com/drive/folders/1z6ffBX3UuAFrBzZgIb2HqpfuBPoyhGpt?fbclid=IwAR2Z-rvkI7gR0ibYzbghv_Boy-1ISiQA-ZtDHxa64D9OtWUDY6uevuQYMuE"
+              >
+                <img
+                  class="img-height-md"
+                  src="./assets/images/gallery_icon.png"
+                  alt=""
+                  srcset=""
+                />
               </a>
-            </div>      
+            </div>
           </div>
         </div>
 
         <div class="col-sm-6 col-md-6">
           <div class="flex-and-center vertically-center m-4">
             <a href="#c" class="btn btn-danger btn-lg">Play Mini Game</a>
-          </div>          
+          </div>
         </div>
-
       </div>
     </div>
 
-
     <!-- GAME -->
     <div class="game game-container">
-
       <!-- Game canvas -->
-      <canvas 
-        id="c"
-      ></canvas>
+      <canvas id="c"></canvas>
 
       <!-- Gameplay HUD -->
       <div class="hud">
@@ -91,28 +116,45 @@
       <div class="menus">
         <div class="menu menu--main">
           <h1>MINI GAME</h1>
-          <button type="button" class="game-btn play-normal-btn">PLAY GAME</button>
-          <button type="button" class="game-btn play-casual-btn">CASUAL MODE</button>
+          <button type="button" class="game-btn play-normal-btn">
+            PLAY GAME
+          </button>
+          <button type="button" class="game-btn play-casual-btn">
+            CASUAL MODE
+          </button>
         </div>
         <div class="menu menu--pause">
           <h1>Paused</h1>
           <button type="button" class="game-btn resume-btn">RESUME GAME</button>
-          <button type="button" class="game-btn menu-btn--pause">MAIN MENU</button>
+          <button type="button" class="game-btn menu-btn--pause">
+            MAIN MENU
+          </button>
         </div>
         <div class="menu menu--score">
           <h1>Game Over</h1>
           <h2>Your Score:</h2>
           <div class="final-score-lbl"></div>
           <div class="high-score-lbl"></div>
-          <button type="button" class="game-btn play-again-btn">PLAY AGAIN</button>
-          <button type="button" class="game-btn menu-btn--score">MAIN MENU</button>
+          <button type="button" class="game-btn play-again-btn">
+            PLAY AGAIN
+          </button>
+          <button type="button" class="game-btn menu-btn--score">
+            MAIN MENU
+          </button>
         </div>
+      </div>
+      <div class="exit-game">
+        <div>
+          <button class="game-btn">
+            <a href = "#topScreen" id="exit-link">Exit game</a>
+          </button>
+        </div>
+       
       </div>
     </div>
 
     <!-- scripts -->
     <script src="./js/game.js"></script>
-    
+    <script src="./js/page.js"></script>
   </body>
-
 </html>

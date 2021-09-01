@@ -1,37 +1,60 @@
 .top-container {
-	min-height: 100vh;
-	min-width: 100vw;
-    color: white;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: white;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-
 .flex-and-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .vertically-center {
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
-
 
 .img-height-sm {
-    height: 35px;
+  height: 95px;
+  width: 175px;
+  padding: 15px;
 }
+
 .img-height-md {
-    height: 80px;
+  height: 80px;
 }
 .img-height-lg {
-    height: 200px;
+  height: 200px;
+}
+
+.exit-game {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#exit-link {
+  text-decoration: none;
+  font-size: 25px;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 500px) {
+  .img-height-sm {
+    height: 45px;
+    width: 85px;
+    padding: 5px;
+  }
 }
