@@ -8,35 +8,6 @@ body {
 	background-image: linear-gradient(#11112D, #0D0C12);
 }
 
-
-h1 {
-	font-family: 'Roboto', sans-serif;
-	color: azure;
-	font-size: 4rem;
-	line-height: 0.95;
-	text-align: center;
-	font-weight: bold;
-	margin: 0 0.65em 1em;
-}
-
-h2 {
-    font-family: 'Roboto', sans-serif;
-	font-size: 1.5rem;
-	line-height: 1;
-	text-align: center;
-	font-weight: bold;
-	margin: -1em 0.65em 1em;
-	color: azure;
-}
-
-h3 {
-   font-family: 'Roboto', sans-serif;
-   text-align: center;
-   color: azure;
-   margin-left: 10vh;
-   margin-right: 10vh;
-}
-
 .game {
 	background-color: var(--game-canvas-bg);
 	color: var(--game-text-color);
