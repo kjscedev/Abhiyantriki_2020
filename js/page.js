@@ -1,21 +1,9 @@
-$(".scroll").click(function (e) {
-  console.error("here afdsjl");
-
-  e.preventDefault();
-  var target = $(this).attr("href");
-
-  if (target.length < 2) return;
-
-  var element = document.querySelector(target);
-
-  if (element) {
-    var offsetPosition = element.getBoundingClientRect().top;
-
+document.querySelectorAll(".exit-btn").forEach((btn) => {
+  btn.onclick = function () {
+    element = document.querySelector("#topScreen");
     element.scrollIntoView({
-      top: offsetPosition,
+      top: 0,
       behavior: "smooth",
     });
-  }
+  };
 });
-
-

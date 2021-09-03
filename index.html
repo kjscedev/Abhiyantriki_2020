@@ -15,16 +15,13 @@
       crossorigin="anonymous"
     />
 
-    <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
     <!-- custom css -->
     <link rel="stylesheet" href="./css/game.css" />
     <link rel="stylesheet" href="./css/page.css" />
   </head>
 
   <body>
-    <div class="full-screen">
+    <div class="full-screen" id="topScreen">
       <ul class="nav p-3 justify-content-between" id="nav-bar">
         <li class="nav-item">
           <img
@@ -45,7 +42,7 @@
         </li>
       </ul>
 
-      <div class="container top-container" id="topScreen">
+      <div class="container top-container">
         <div class="row">
           <div class="col-sm-6 col-md-6">
             <div class="flex-and-center">
@@ -111,8 +108,8 @@
           <button type="button" class="game-btn play-casual-btn">
             CASUAL MODE
           </button>
-          <button class="game-btn">
-            <a href="#topScreen" id="exit-link">Exit game</a>
+          <button class="game-btn exit-btn">
+            <a href="#topScreen" class="exit-link">Exit game</a>
           </button>
         </div>
         <div class="menu menu--pause">
@@ -121,8 +118,8 @@
           <button type="button" class="game-btn menu-btn--pause">
             MAIN MENU
           </button>
-          <button class="game-btn">
-            <a href="#topScreen" id="exit-link">Exit game</a>
+          <button class="game-btn exit-btn">
+            <a href="#topScreen" class="exit-link">Exit game</a>
           </button>
         </div>
         <div class="menu menu--score">
@@ -136,8 +133,8 @@
           <button type="button" class="game-btn menu-btn--score">
             MAIN MENU
           </button>
-          <button class="game-btn">
-            <a href="#topScreen" id="exit-link">Exit game</a>
+          <button class="game-btn exit-btn">
+            <a href="#topScreen" class="exit-link">Exit game</a>
           </button>
         </div>
       </div>

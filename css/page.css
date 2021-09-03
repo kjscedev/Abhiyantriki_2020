@@ -47,7 +47,7 @@
   justify-content: center;
 }
 
-#exit-link {
+.exit-link {
   text-decoration: none;
   font-size: 25px;
   color: aliceblue;
