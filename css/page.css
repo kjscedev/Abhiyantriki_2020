@@ -1,8 +1,13 @@
-.top-container {
+.full-screen {
   min-height: 100vh;
   min-width: 100vw;
-  color: white;
+  display: flex;
+  flex-direction: column;
+}
 
+.full-screen .top-container {
+  color: white;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -40,7 +45,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 #exit-link {
