@@ -54,6 +54,12 @@
   text-transform: uppercase;
 }
 
+#coming-soon-gif {
+  margin-left: 25vh;
+  height: 125px !important;
+  width: 125px !important;
+}
+
 @media only screen and (max-width: 500px) {
   .img-height-sm {
     height: 30px;
