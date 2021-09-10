@@ -55,11 +55,15 @@
 }
 
 #coming-soon-gif {
-  margin-left: 25vh;
+  /* margin-left: 25vh;
   height: 125px !important;
-  width: 125px !important;
+  width: 125px !important; */
 }
 
+.image-gif {
+   /* height: 100%; */
+    width: 100%;  
+}
 @media only screen and (max-width: 500px) {
   .img-height-sm {
     height: 30px;
@@ -67,5 +71,6 @@
   .img-height-lg {
     height: 150px;
   }
+
   
 }
