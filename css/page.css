@@ -67,5 +67,6 @@ body {
   }
   .img-height-lg {
     height: 150px;
+    margin: 25px;
   }
 }
