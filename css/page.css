@@ -1,3 +1,7 @@
+body {
+  background-image: url('../assets/gifs/bg_animation.gif');
+}
+
 .full-screen {
   min-height: 100vh;
   min-width: 100vw;
