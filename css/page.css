@@ -1,5 +1,9 @@
 body {
-  background-image: url('../assets/gifs/bg_animation.gif');
+  background-image: url("../assets/gifs/bg_animation.gif");
+}
+
+.row {
+  flex-direction: row-reverse;
 }
 
 .full-screen {
@@ -22,6 +26,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex-direction: column-reverse;
 }
 
 .vertically-center {
@@ -68,5 +73,25 @@ body {
   .img-height-lg {
     height: 100px;
     margin: 25px;
+  }
+
+  .vertically-center {
+    top: 0;
+    transform: translateY(0);
+    width: 100%;
+  }
+  .row {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dim-adjust {
+    width: 90%;
+  }
+ 
+
+  .image-gif{
+    width: 100%;
   }
 }
