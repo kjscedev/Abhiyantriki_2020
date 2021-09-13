@@ -9,7 +9,8 @@ body {
 }
 
 .game {
-  background-color: var(--game-canvas-bg);
+  /* background-color: var(--game-canvas-bg); */
+  background-image: url('../assets/gifs/bg_animation.gif');
   color: var(--game-text-color);
 
   overflow: hidden;

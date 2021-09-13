@@ -40,7 +40,7 @@ const minPointerSpeed = 60;
 const hitDampening = 0;
 // Backboard receives shadows and is the farthest negative Z position of entities.
 const backboardZ = -400;
-const shadowColor = '#262e36';
+const shadowColor = 'rgba(0, 0, 0, 0.2)';
 // How much air drag is applied to standard objects
 const airDrag = 0.022;
 const gravity = 0.3;
