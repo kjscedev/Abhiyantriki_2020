@@ -1,5 +1,5 @@
 :root {
-  --game-canvas-bg: #a42c2c;
+  --game-canvas-bg: #001121;
   --game-text-color: #cdcdcd;
 }
 
@@ -9,8 +9,7 @@ body {
 }
 
 .game {
-  /* background-color: var(--game-canvas-bg); */
-  background-image: url('../assets/gifs/bg_animation.gif');
+  background-color: var(--game-canvas-bg);
   color: var(--game-text-color);
 
   overflow: hidden;

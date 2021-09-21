@@ -1,5 +1,6 @@
 body {
-  background-image: url("../assets/gifs/bg_animation.gif");
+  background-image: url("../assets/gifs/bg_animation1.gif");
+  background-size: cover;
 }
 
 .full-screen {
@@ -22,7 +23,14 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  flex-direction: column-reverse;
+}
+.follow {
+  margin-top: 50px;
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-bottom: 1px solid white;
 }
 
 .vertically-center {
@@ -61,6 +69,30 @@ body {
 
 .image-gif {
   width: 80%;
+}
+.mobile-social-media-section {
+  display: none;
+}
+/* ---------------------------- Scroll Effect --------------------------- */
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.6);
 }
 
 /* -------------------------- Play game btn -------------------------- */
@@ -132,6 +164,30 @@ body {
   }
 
   .image-gif {
+    width: 90%;
+  }
+
+  /* links containers */
+  .mobile-social-media-section {
+    display: block;
     width: 100%;
+    margin: 30px auto;
+  }
+  .mobile-social-media-inner-section {
+    width: 95%;
+    text-align: center;
+    margin: auto;
+  }
+  .social-media__section {
+    display: none;
+  }
+  .mobile-social-media-section a {
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ddd;
+    display: block;
+    transition: 0.5s;
+    display: inline;
   }
 }
