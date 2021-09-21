@@ -2,10 +2,6 @@ body {
   background-image: url("../assets/gifs/bg_animation.gif");
 }
 
-.row {
-  flex-direction: row-reverse;
-}
-
 .full-screen {
   min-height: 100vh;
   min-width: 100vw;
@@ -66,6 +62,48 @@ body {
 .image-gif {
   width: 80%;
 }
+.btn-danger,
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger:visited {
+  background-color: #99ffff;
+  border-color: #99ffff;
+  box-shadow: none;
+  color: #000;
+}
+
+/*-------------------------- Sidebar --------------------------*/
+.social-media__section {
+  width: 55px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  margin-top: 200px;
+  padding-top: 15px;
+}
+
+.social-media__section a {
+  padding: 6px 8px 6px 18px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ccc;
+  display: block;
+  transition: 0.5s;
+  overflow: hidden !important;
+}
+
+.social-media__section ul li a:hover {
+  color: purple;
+  transform: scale(1);
+  overflow: hidden !important;
+}
+
+.mobile-social-media-section {
+  display: none;
+}
 @media only screen and (max-width: 500px) {
   .img-height-sm {
     height: 30px;
@@ -89,9 +127,8 @@ body {
   .dim-adjust {
     width: 90%;
   }
- 
 
-  .image-gif{
+  .image-gif {
     width: 100%;
   }
 }
