@@ -2,7 +2,12 @@
   --game-canvas-bg: #001121;
   --game-text-color: #cdcdcd;
 }
-
+/* not for game */
+body {
+  background-image: url("../assets/gifs/bg_animation.gif");
+  background-size: cover;
+}
+/* end not for game */
 body {
   overflow-x: hidden !important;
   background-image: linear-gradient(#11112d, #0d0c12);
