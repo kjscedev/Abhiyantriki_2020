@@ -32,6 +32,10 @@
   overflow: hidden !important;
 }
 
+.follow {
+  color: aliceblue;
+}
+
 @media only screen and (max-width: 500px) {
   .img-height-sm {
     height: 30px;
