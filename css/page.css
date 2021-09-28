@@ -5,3 +5,22 @@ body {
 .coming-soon {
     margin: 15px;
 } 
+
+.parvaah {
+    height: 25vw;
+    aspect-ratio: 1;
+    margin: 1vw;
+}
+
+.vl {
+    height: 25vw;
+    width: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.parvaah-text {
+    font-size: 1.3rem;
+    margin: 10px;
+    color: aliceblue;
+}
