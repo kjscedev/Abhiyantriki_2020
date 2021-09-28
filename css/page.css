@@ -39,6 +39,22 @@ body {
     color: aliceblue;
 }
 
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+}
+
+.info {
+    margin: 10px;
+    /* text-align: center; */
+}
+
+ul {
+    list-style-type: none;
+}
+
 @media only screen and (max-width: 500px){
     .vl {
         margin: 3rem auto;
