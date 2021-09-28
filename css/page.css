@@ -28,3 +28,33 @@ body {
 .p-knowmore {
     margin: 50px;
 }
+
+.know-more {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+
+.know-more:hover{
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 500px){
+    .vl {
+        margin: 1rem auto;
+        height: 5px;
+        width: 25vh;
+        border-radius: 5px;
+        background-color: white;
+    }
+    .parvaah {
+        height: 50vw;
+        aspect-ratio: 1;
+        margin: 1vw;
+    }
+}
+
+
+
+
+
