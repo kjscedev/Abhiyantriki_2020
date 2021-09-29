@@ -1,4 +1,4 @@
-.bgcol{
+/* .bgcol{
     background-color: #111027;
 }
 .menu{
@@ -7,4 +7,10 @@
 }
 .item-colour{
     color: azure;
+} */
+
+@media only screen and (max-width: 800px) {
+  .somaiya {
+      display: none;
+  }
 }
