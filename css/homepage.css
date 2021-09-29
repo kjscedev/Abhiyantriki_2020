@@ -15,7 +15,7 @@ body {
 }
 
 .parvaah {
-  height: 25vw;
+  height: 20vw;
   aspect-ratio: 1;
   margin: 1vw;
 }
@@ -72,7 +72,7 @@ ul {
     background-color: white;
   }
   .parvaah {
-    height: 75vw;
+    height: 60vw;
     aspect-ratio: 1;
     margin: 1vw;
   }
