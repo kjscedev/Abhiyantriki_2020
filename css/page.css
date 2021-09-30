@@ -1,6 +1,7 @@
 body {
   background-image: url("../assets/gifs/bg_animation.gif");
   background-size: cover;
+  font-family: "Roboto", sans-serif;
 }
 
 .full-screen {
