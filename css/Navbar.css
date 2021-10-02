@@ -1,16 +1,21 @@
-/* .bgcol{
-    background-color: #111027;
-}
-.menu{
-    font-size: 100%;
-    color: aliceblue;
-}
-.item-colour{
-    color: azure;
-} */
 
 @media only screen and (max-width: 800px) {
   .somaiya {
       display: none;
   }
+}
+
+li {
+  display: inline-block;
+  padding: 1px;
+  border-width: 0px;
+}
+
+li:hover {
+  
+  padding: 0px;
+  border-top:    1px solid #FC0;
+  border-right:  1px solid #FC0; 
+  border-bottom: 1px solid #FC0;
+  
 }
