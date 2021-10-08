@@ -1,21 +1,50 @@
-
-@media only screen and (max-width: 800px) {
-  .somaiya {
-      display: none;
-  }
-}
-
-li {
+.box {
+  position: relative;
+  vertical-align: middle;
+  color: white;
   display: inline-block;
-  padding: 1px;
-  border-width: 0px;
+  height: 40px;
+  line-height: 35px;
+  text-align: center;
+  transition: 0.5s;
+  padding: 0 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.5s;
 }
 
-.highlight:hover {
-  
-  padding: 0px;
-  border-top:    1px solid #FC0;
-  border-right:  1px solid #FC0; 
-  border-bottom: 1px solid #FC0;
-  
+.box:hover {
+  /* border: 2px solid yellow; */
+  color: yellow;
+}
+
+.box::before,
+.box::after {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+.foo::before {
+  border-bottom: 1px solid yellow;
+  border-left: 1px solid yellow;
+  transform-origin: 100% 0%;
+}
+
+.foo::after {
+  border-top: 1px solid yellow;
+  border-right: 1px solid yellow;
+  transform-origin: 0% 100%;
+}
+
+.box:hover::after,
+.box:hover::before {
+  transform: scale(1);
 }
