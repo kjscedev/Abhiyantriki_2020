@@ -7,7 +7,7 @@ body {
 }
 
 .main-img {
-  margin: 5vh;
+  height: 60vh;
 }
 
 .coming-soon {
@@ -75,5 +75,8 @@ ul {
     height: 60vw;
     aspect-ratio: 1;
     margin: 1vw;
+  }
+  .main-img {
+    height: 40vh;
   }
 }
