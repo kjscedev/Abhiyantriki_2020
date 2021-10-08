@@ -11,7 +11,7 @@ li {
   border-width: 0px;
 }
 
-li:hover {
+.highlight:hover {
   
   padding: 0px;
   border-top:    1px solid #FC0;
