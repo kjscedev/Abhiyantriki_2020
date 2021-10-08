@@ -1,4 +1,4 @@
-.necklace {
+/* .necklace {
     top: -3000px;
     left: -1250px;
     border: 1px solid aliceblue;
@@ -7,7 +7,7 @@
     border-radius: 50%;
     position: absolute;
     z-index: -999;
-}
+} */
 
 .navslide {
     width: 90vw;
@@ -142,4 +142,5 @@
 .caro-img {
     padding: 25px;
     background-color: #11112d;
+    z-index: 999;
 }
