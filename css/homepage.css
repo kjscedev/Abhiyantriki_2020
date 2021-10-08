@@ -78,14 +78,28 @@ ul {
   .parvaah {
     height: 60vw;
     aspect-ratio: 1;
-    margin: 1vw;
+    margin: 0vw;
   }
   .main-img {
     height: 40vh;
   }
-  .kj-img {
+  .kjsce {
     width: 75vw;
-    text-align: center;
+    float: left;
+  }
+  .abhiyantriki {
+    width: 75vw;
+    float: right;
   }
 
+  .rev {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  .rev > div {
+    display: inline-block;
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
 }
