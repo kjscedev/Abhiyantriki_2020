@@ -141,6 +141,8 @@
 
 .caro-img {
     padding: 25px;
-    background-color: #11112d;
+    background-color:  #001121;
+    border-radius: 50%;
+    border: 1px solid aliceblue;
     z-index: 999;
 }
