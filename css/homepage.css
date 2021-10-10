@@ -54,16 +54,41 @@ body {
   color: aliceblue;
 }
 
+.contact-info > a {
+   color: aliceblue;
+}
+
 .contact-info {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: aliceblue !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact-text {
+   text-decoration: none;
+   color: aliceblue;
+}
+
+.contact-text:hover {
+  text-decoration: none;
   color: aliceblue;
+}
+
+.contact-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dept {
+font-weight: 900 !important;
+  
 }
 
 .info {
   margin: 10px;
-  /* text-align: center; */
 }
 
 ul {
@@ -109,4 +134,7 @@ ul {
     -webkit-transform: rotate(-180deg);
     transform: rotate(-180deg);
   }
+
+
+
 }

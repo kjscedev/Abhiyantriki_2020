@@ -63,6 +63,13 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <!--js-->
     <script src="./assets/Js/navbar.js"></script>
 
@@ -70,73 +77,76 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark py-3 fixed-top"
-      style="background-color:  #001121";
-    >
-      <div class="container-fluid">
-        <a href="#" class="navbar-brand p-4"
-          ><img
-            src="./assets/logos/ab-name-right-white.png"
-            width="130"
-            alt=""
-            class="d-inline-block align-middle mr-2"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item px-2 highlight">
-              <a class="box foo text-decoration-none">Home</a>
-            </li>
-            <li class="nav-item px-2 highlight">
-              <a class="box foo text-decoration-none">Events</a>
-            </li>
-            <li class="nav-item px-2 highlight">
-              <a class="box foo text-decoration-none">Expos & Speakers</a>
-            </li>
-            <li class="nav-item px-2 highlight">
-              <a class="box foo text-decoration-none">Get Involved</a>
-            </li>
-            <li class="nav-item px-2 highlight">
-              <a class="box foo text-decoration-none">Parvaah</a>
-            </li>
-            <li class="nav-item px-2 highlight">
-              <a class="box foo text-decoration-none">Sponsors</a>
-            </li>
-            <li class="nav-item px-2 highlight">
-              <a class="box foo text-decoration-none">Contact</a>
-            </li>
+    <div class="container">
+      <nav
+        class="navbar navbar-expand-md navbar-dark py-3 fixed-top"
+        style="background-color: #001121"
+        ;
+      >
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand p-4"
+            ><img
+              src="./assets/logos/ab-name-right-white.png"
+              width="130"
+              alt=""
+              class="d-inline-block align-middle mr-2"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item px-2 highlight">
+                <a class="box foo text-decoration-none">Home</a>
+              </li>
+              <li class="nav-item px-2 highlight">
+                <a class="box foo text-decoration-none">Events</a>
+              </li>
+              <li class="nav-item px-2 highlight">
+                <a class="box foo text-decoration-none">Expos & Speakers</a>
+              </li>
+              <li class="nav-item px-2 highlight">
+                <a class="box foo text-decoration-none">Get Involved</a>
+              </li>
+              <li class="nav-item px-2 highlight">
+                <a class="box foo text-decoration-none">Parvaah</a>
+              </li>
+              <li class="nav-item px-2 highlight">
+                <a class="box foo text-decoration-none">Sponsors</a>
+              </li>
+              <li class="nav-item px-2 highlight">
+                <a class="box foo text-decoration-none">Contact</a>
+              </li>
 
-            <li class="nav-item somaiya">
-              <a href="#" class="navbar-brand"
-                ><img
-                  src="./assets/logos/somaiya-trust.png"
-                  width="50"
-                  alt=""
-                  class="d-inline-block align-middle mr-2"
-              /></a>
-            </li>
+              <li class="nav-item somaiya">
+                <a href="#" class="navbar-brand"
+                  ><img
+                    src="./assets/logos/somaiya-trust.png"
+                    width="50"
+                    alt=""
+                    class="d-inline-block align-middle mr-2"
+                /></a>
+              </li>
 
-            <li class="nav-item somaiya">
-              <a href="#" class="navbar-brand"
-                ><img
-                  src="./assets/logos/somaiya-white-logo.png"
-                  width="125"
-                  alt=""
-                  class="d-inline-block align-middle mr-2"
-              /></a>
-            </li>
-          </ul>
+              <li class="nav-item somaiya">
+                <a href="#" class="navbar-brand"
+                  ><img
+                    src="./assets/logos/somaiya-white-logo.png"
+                    width="125"
+                    alt=""
+                    class="d-inline-block align-middle mr-2"
+                /></a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
 
     <!-- HOMEPAGE -->
     <div class="vh-100">
@@ -279,41 +289,41 @@
     </div>
 
     <!-- FOOTER -->
-    <div class="container">
+    <div class="container contact-parent">
       <div class="row contact-info">
-        <div class="col">
+        <div class="col p-4">
           <img src="./assets//logos/mapspin.png" alt="" height="400" />
         </div>
-        <div class="col info">
-          <div class="row g-4">
+        <div class="col info p-4">
+          <div class="row g-2">
             <div class="col-md">
-              <h2 class="text-center fw-bold">Reach Us</h2>
-              <h2 class="text-center fw-light">
+              <h2 class="fw-bold" style="color: #FCE588">Reach Us</h2>
+              <h2 class="fw-light">
                 <a
                   href="mailto:kjsceabhiyantriki@somaiya.edu"
-                  class="text-decoration-none"
+                  class="contact-text"
                 >
                   kjsceabhiyantriki@somaiya.edu
                 </a>
               </h2>
 
-              <ul class="list-group list-group-flush text-center">
-                <li class="p-3">Public Relations</li>
-                <li class="li-group-item p-3">
-                  <a class="text-decoration-none" href="tel:+91-816-938-8385">
+              <ul class="list-group">
+                <li class="dept pt-3">Public Relations</li>
+                <li class="li-group-item pt-3">
+                  <a class="contact-text" href="tel:+91-816-938-8385">
                     <span class="fw-bold">Freya Vora: </span>
                     +91 8169388385
                   </a>
                 </li>
-                <li class="p-3">Marketing</li>
-                <li class="li-group-item p-3">
-                  <a class="text-decoration-none" href="tel:+91-816-938-8385">
+                <li class="dept pt-3">Marketing</li>
+                <li class="li-group-item pt-3">
+                  <a class="contact-text" href="tel:+91-816-938-8385">
                     <span class="fw-bold">Supriya Tiwari: </span>
                     +91 8169388385
                   </a>
                 </li>
-                <li class="li-group-item p-3">
-                  <a class="text-decoration-none" href="tel:+91-816-938-8385">
+                <li class="li-group-item pt-3">
+                  <a class="contact-text" href="tel:+91-816-938-8385">
                     <span class="fw-bold">Aabha Borle: </span>
                     +91 8169388385
                   </a>
