@@ -99,6 +99,16 @@ ul {
   width: 30vw;
 }
 
+.tl-years, .tl-text {
+  color: aliceblue;
+}
+
+/* .tl-image {
+    height: 10vh;
+} */
+
+
+
 @media only screen and (max-width: 500px) {
   .vl {
     margin: 3rem auto;
@@ -123,6 +133,8 @@ ul {
     width: 75vw;
     float: right;
   }
+
+
 
   .rev {
     -webkit-transform: rotate(180deg);
