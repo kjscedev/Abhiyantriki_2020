@@ -108,6 +108,35 @@ ul {
   color: #FCE588;
 } 
 
+.year {
+  color: aliceblue;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  
+  display: flex;
+  flex-direction: column;
+  padding: 5px 5px;
+  position: relative;
+}
+
+.year:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 75%;
+  position: absolute;
+  background: #FCE588;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.year:hover:after { 
+  width: 25%; 
+  right: 0; 
+}
+
 
 
 @media only screen and (max-width: 500px) {
