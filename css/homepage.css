@@ -103,9 +103,10 @@ ul {
   color: aliceblue;
 }
 
-/* .tl-image {
-    height: 10vh;
-} */
+.year:hover {
+  cursor: pointer;
+  color: #FCE588;
+} 
 
 
 

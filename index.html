@@ -258,19 +258,19 @@
         <div class="d-flex justify-content-between align-items-center m-10">
           <div class="container">
             <div class="tl-image m-5">
-              <img src="/assets/images/timeline/2017.png" height="400" />
+              <img src="/assets/images/timeline/2017.png" height="400" id="changedImage"/>
             </div>
-            <div class="tl-text">
+            <div class="tl-text" id="changedText">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
               rerum?
             </div>
           </div>
           <div class="container text-end">
             <ul class="tl-years">
-              <li class="p-4">2017</li>
-              <li class="p-4">2018</li>
-              <li class="p-4">2019</li>
-              <li class="p-4">2020</li>
+              <li class="p-4 year" id="year-17" onclick="change17()">2017</li>
+              <li class="p-4 year" id="year-18" onclick="change18()">2018</li>
+              <li class="p-4 year" id="year-19" onclick="change19()">2019</li>
+              <li class="p-4 year" id="year-20" onclick="change20()">2020</li>
             </ul>
           </div>
         </div>
@@ -455,5 +455,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="assets/Js/carousel.js"></script>
+    <script src="assets/Js/timeline.js"></script>
+
   </body>
 </html>
