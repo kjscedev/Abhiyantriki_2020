@@ -7,6 +7,7 @@ body {
   padding: 0;
   background-image: linear-gradient(#001121, #001121);
   /* overflow-x: hidden !important; */
+  /* font-family: "Roboto", sans-serif; */
 }
 
 .vh-100 {
@@ -54,7 +55,7 @@ body {
 }
 
 .contact-info > a {
-   color: aliceblue;
+  color: aliceblue;
 }
 
 .contact-info {
@@ -62,12 +63,12 @@ body {
   justify-content: space-around;
   align-items: center;
   color: aliceblue !important;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .contact-text {
-   text-decoration: none;
-   color: aliceblue;
+  text-decoration: none;
+  color: aliceblue;
 }
 
 .contact-text:hover {
@@ -82,8 +83,7 @@ body {
 }
 
 .dept {
-font-weight: 900 !important;
-  
+  font-weight: 900 !important;
 }
 
 .info {
@@ -98,28 +98,29 @@ ul {
   width: 30vw;
 }
 
-.tl-years, .tl-text {
+.tl-years,
+.tl-text {
   color: aliceblue;
 }
 
 .year:hover {
   cursor: pointer;
-  color: #FCE588;
-} 
+  color: #fce588;
+}
 
 .year {
   color: aliceblue;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.05em;
-  
+
   display: flex;
   flex-direction: column;
   padding: 5px 5px;
   position: relative;
 }
 
-.year:after {    
+.year:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -127,16 +128,14 @@ ul {
   height: 1px;
   left: 75%;
   position: absolute;
-  background: #FCE588;
+  background: #fce588;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-.year:hover:after { 
-  width: 25%; 
-  right: 0; 
+.year:hover:after {
+  width: 25%;
+  right: 0;
 }
-
-
 
 @media only screen and (max-width: 500px) {
   .vl {
@@ -163,8 +162,6 @@ ul {
     float: right;
   }
 
-
-
   .rev {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
@@ -175,7 +172,4 @@ ul {
     -webkit-transform: rotate(-180deg);
     transform: rotate(-180deg);
   }
-
-
-
 }

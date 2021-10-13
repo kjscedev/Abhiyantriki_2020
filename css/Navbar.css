@@ -14,7 +14,7 @@
 }
 
 .box:hover {
-  color: #FCE588;
+  color: #fce588;
 }
 
 .box::before,
@@ -32,14 +32,14 @@
 }
 
 .foo::before {
-  border-bottom: 1px solid #FCE588;
-  border-left: 1px solid #FCE588;
+  border-bottom: 1px solid #fce588;
+  border-left: 1px solid #fce588;
   transform-origin: 100% 0%;
 }
 
 .foo::after {
-  border-top: 1px solid #FCE588;
-  border-right: 1px solid #FCE588;
+  border-top: 1px solid #fce588;
+  border-right: 1px solid #fce588;
   transform-origin: 0% 100%;
 }
 
@@ -48,8 +48,7 @@
   transform: scale(1);
 }
 
-
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
   .somaiya {
     display: none;
   }
