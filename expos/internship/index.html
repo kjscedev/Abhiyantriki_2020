@@ -101,37 +101,49 @@
           <div class="collapse navbar-collapse" id="navmenu">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item px-2 highlight">
-                <a href="/" class="box foo text-decoration-none">Home</a>
+                <a class="box foo text-decoration-none">Home</a>
               </li>
               <li class="nav-item px-2 highlight">
                 <a href="/events" class="box foo text-decoration-none"
                   >Events</a
                 >
               </li>
-              <li class="nav-item px-2 highlight">
-                <a href="/" class="box foo text-decoration-none"
-                  >Expos & Speakers</a
+              <li class="dropdown nav-item dropdown px-2 highlight">
+                <a
+                  class="foo box text-decoration-none"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="true"
                 >
+                  Expos & Speakers &nbsp; &#9660
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark dropdown-menu-end"
+                  aria-labelledby="dropdownMenuButton1"
+                >
+                  <li>
+                    <a class="dropdown-item" href="/expos/tech/">Tech Expo</a>
+                  </li>
+                  <li><a class="dropdown-item" href="/expos/internship/">Internship Expo</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Speaker Session</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item px-2 highlight">
+                <a class="box foo text-decoration-none">Get Involved</a>
               </li>
               <li class="nav-item px-2 highlight">
-                <a href="/get-involved" class="box foo text-decoration-none"
-                  >Get Involved</a
-                >
+                <a class="box foo text-decoration-none">Parvaah</a>
               </li>
               <li class="nav-item px-2 highlight">
-                <a href="/parvaah" class="box foo text-decoration-none"
-                  >Parvaah</a
-                >
+                <a class="box foo text-decoration-none">Sponsors</a>
               </li>
               <li class="nav-item px-2 highlight">
-                <a href="/sponsors" class="box foo text-decoration-none"
-                  >Sponsors</a
-                >
-              </li>
-              <li class="nav-item px-2 highlight">
-                <a href="/contact" class="box foo text-decoration-none"
-                  >Contact</a
-                >
+                <a class="box foo text-decoration-none">Contact</a>
               </li>
 
               <li class="nav-item somaiya">
