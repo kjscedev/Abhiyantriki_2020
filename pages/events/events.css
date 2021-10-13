@@ -20,8 +20,8 @@
     font-size: 2rem;
     text-transform: uppercase;
     color: aliceblue;
-    margin-top: 25vh;
-    margin-bottom: 5vh;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
   }
 
 #events-btn {
@@ -32,6 +32,10 @@
   border-style: none;
   display: inline-block;
   width: 10vw;
+}
+
+#events-btn:hover {
+  background-color: #FCE588;
 }
 
 
