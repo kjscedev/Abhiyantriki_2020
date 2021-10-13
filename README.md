@@ -3,7 +3,7 @@
 ## Tasks
 
 - [x] Expo screens
-- [ ] Link expo screens using navbar
+- [x] Link expo screens using navbar
 - [ ] Navbar bugs
   - [ ] right somaiya logo on medium screen
   - [ ] overflowing fields
