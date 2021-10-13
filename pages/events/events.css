@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(#001121, #001121);
+  
   }
   body {
     margin: 0;
@@ -14,6 +14,27 @@
   .vh-100 {
     height: 100vh;
   }
+
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: aliceblue;
+    margin-top: 25vh;
+    margin-bottom: 5vh;
+  }
+
+#events-btn {
+  background-color: aliceblue;
+  color: black;
+  padding: 0.7rem;
+  border-radius: 10px;
+  border-style: none;
+  display: inline-block;
+  width: 10vw;
+}
+
+
 
 /* Navbar */
 .box {
@@ -71,6 +92,7 @@
     .somaiya {
       display: none;
     }
+
   }
 
   /* Sidebar */
