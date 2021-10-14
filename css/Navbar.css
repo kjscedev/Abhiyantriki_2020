@@ -1,3 +1,4 @@
+/* fancy button animation (credits: some codepen) */
 .box {
   position: relative;
   vertical-align: middle;
@@ -48,13 +49,49 @@
   transform: scale(1);
 }
 
+/* navbar  */
+.navbar {
+  text-align: center;
+  background-color: #001121;
+}
+
+/* hide the somaiya logos in small screens */
 @media only screen and (max-width: 500px) {
   .somaiya {
     display: none;
   }
 }
 
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
+/* navbar drop down animation 
+credits: https://bootstrap-menu.com/detail-hover-animation.html */
+@media all and (min-width: 992px) {
+  .navbar .dropdown-menu-end {
+    right: 0;
+    left: auto;
+  }
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    margin-top: 0;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: #fff;
+  }
+  .navbar .dropdown-menu.fade-down {
+    top: 80%;
+    transform: rotateX(-75deg);
+    transform-origin: 0% 0%;
+  }
+  .navbar .dropdown-menu.fade-up {
+    top: 180%;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    transition: 0.3s;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transform: rotateX(0deg);
+  }
 }
