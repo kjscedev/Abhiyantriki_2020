@@ -175,12 +175,49 @@
        <div class="vh-100">
          <div class="container">
            <h1 class="title">Events</h1>
+           <div class="container text-center">
            <div class="d-sm-flex justify-content-around">
-             <button id="events-btn" onclick={changeToTechnical()}>Technical</button>
+             <!-- <button id="events-btn" onclick={changeToTechnical()}>Technical</button>
              <button id="events-btn" onclick={changeToShield()}>Shield</button>
              <button id="events-btn" onclick={changeToInformals()}>Informals</button>
              <button id="events-btn" onclick={changeToIdeate()}>Ideate</button>
-             <button id="events-btn" onclick={changeToPreevents()}>Pre-events</button>
+             <button id="events-btn" onclick={changeToPreevents()}>Pre-events</button> -->
+             <div onclick={changeToTechnical()}>
+              <a class='holo-btn-fed' href='#'>
+                <span class="m-5">Technical</span>
+                <span class='skew top'></span>
+                <span class='skew bottom'></span>
+              <a>
+            </div>
+             <div onclick={changeToIdeate()}>
+              <a class='holo-btn-fed' href='#'>
+                <span class="m-5">Ideate</span>
+                <span class='skew top'></span>
+                <span class='skew bottom'></span>
+              <a>
+            </div>
+             <div onclick={changeToInformals()}>
+              <a class='holo-btn-fed' href='#'>
+                <span class="m-5">Informals</span>
+                <span class='skew top'></span>
+                <span class='skew bottom'></span>
+              <a>
+            </div>
+             <div onclick={changeToShield()}>
+              <a class='holo-btn-fed' href='#'>
+                <span class="m-5">Shield</span>
+                <span class='skew top'></span>
+                <span class='skew bottom'></span>
+              <a>
+            </div>
+             <div onclick={changeToPreevents()}>
+              <a class='holo-btn-fed' href='#'>
+                <span class="m-5">Pre-events</span>
+                <span class='skew top'></span>
+                <span class='skew bottom'></span>
+              <a>
+            </div>
+           </div>
            </div>
            <div class="d-flex justify-content-around event-blocks">
              <div class="block block-1">
@@ -232,6 +269,11 @@
     <div class="social-media__section">
       <ul class="list-unstyled">
         <li>
+          <a href="https://kjscelive.wordpress.com/"
+            ><i class="fa fa-wordpress"></i
+          ></a>
+        </li>
+        <li>
           <a
             href="https://cutt.ly/Abhiyantriki_2020_Registration"
             target="_blank"
@@ -265,11 +307,6 @@
             href="https://www.youtube.com/channel/UC7Z32X4uNZ8c31NteK3065g"
             target="_blank"
             ><i class="fa fa-youtube-play"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://kjscelive.wordpress.com/"
-            ><i class="fa fa-wordpress"></i
           ></a>
         </li>
       </ul>
