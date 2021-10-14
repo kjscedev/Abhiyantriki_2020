@@ -15,21 +15,21 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="../../assets/favicons/apple-touch-icon.png"
+      href="../assets/favicons/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="../../assets/favicons/favicon-32x32.png"
+      href="../assets/favicons/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="../../assets/favicons/favicon-16x16.png"
+      href="../assets/favicons/favicon-16x16.png"
     />
-    <link rel="manifest" href="../../assets/favicons/site.webmanifest" />
+    <link rel="manifest" href="../assets/favicons/site.webmanifest" />
 
     <!--font awesome-->
     <link
@@ -41,13 +41,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-    <!-- custom CSS -->
-    <link rel="stylesheet" href="../../css/scrollbar.css" />
-    <link rel="stylesheet" href="../../css/sidebar.css" />
-    <link rel="stylesheet" href="../../css/navbar.css" />
-    <link rel="stylesheet" href="../../css/button.css" />
-    <link rel="stylesheet" href="../expo.css" />
-
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
@@ -55,6 +48,15 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
+    
+
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="../css/page.css" />
+    <link rel="stylesheet" href="../css/scrollbar.css" />
+    <link rel="stylesheet" href="../css/sidebar.css" />
+    <link rel="stylesheet" href="../css/homepage.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/carousel.css" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
@@ -70,12 +72,11 @@
       rel="stylesheet"
     />
     <!--js-->
-    <script src="../../assets/js/navbar.js"></script>
+    <script src="../assets/js/navbar.js"></script>
 
-    <title>Internship Expo | Abhiyantriki 2021</title>
+    <title>Abhiyantriki 2021</title>
   </head>
-
-  <body style="background-color: #001121; font-family: 'Roboto', sans-serif">
+  <body>
     <!-- NAVBAR -->
     <div class="container-fluid">
       <nav
@@ -86,7 +87,7 @@
         <div class="container-fluid">
           <a href="/" class="navbar-brand"
             ><img
-              src="../../assets/logos/ab-name-right-white.png"
+              src="../assets/logos/ab-name-right-white.png"
               width="130"
               alt=""
               class="d-inline-block align-middle mr-2"
@@ -127,8 +128,13 @@
                   </li>
                   <li><a class="dropdown-item" href="/expos/internship/">Internship Expo</a></li>
                   <li>
-                    <a class="dropdown-item" href="#"
+                    <a class="dropdown-item" href="/sessions/speaker/"
                       >Speaker Session</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/sessions/panel/"
+                      >Panel Session</a
                     >
                   </li>
                 </ul>
@@ -150,7 +156,7 @@
               <li class="nav-item somaiya">
                 <a href="#" class="navbar-brand"
                   ><img
-                    src="../../assets/logos/somaiya-trust.png"
+                    src="../assets/logos/somaiya-trust.png"
                     width="50"
                     alt=""
                     class="d-inline-block align-middle mr-2"
@@ -160,7 +166,7 @@
               <li class="nav-item somaiya">
                 <a href="#" class="navbar-brand"
                   ><img
-                    src="../../assets/logos/somaiya-white-logo.png"
+                    src="../assets/logos/somaiya-white-logo.png"
                     width="125"
                     alt=""
                     class="d-inline-block align-middle mr-2"
@@ -172,38 +178,45 @@
       </nav>
     </div>
 
-    <!-- content -->
-    <div class="text-white">
-      <div class="container" style="padding-top: 10vh">
+    <!-- PARVAAH -->
+    <div class="container" style="padding-top: 8vh">
+      <div class="col">
+        <h1 class="my-5" style="font-size: 50px">Parvaah</h1>
         <div
           class="
-            text-center
-            d-flex
-            justify-content-center
-            flex-column
+            d-sm-flex
+            justify-content-around
             align-items-center
+            text-center
           "
         >
-          <h1 class="my-5" style="font-size: 50px">Internship Expo</h1>
-          <p class="fs-4 responsive-para">
-            Internship expo is one of the major events at Abhiyantriki. The main
-            objective of this expo is to provide students with a diverse range
-            of internship opportunities. These internships help the students
-            acquaint with a lot of new skills and give them the required work
-            experience. Internships play an essential role in magnifying the
-            morale of the students.
-          </p>
-          <div class="mt-4 mb-5">
-            <a class='holo-btn-fed' href='#'>
-              <span class='cta-e'>Register</span>
-              <span class='skew top'></span>
-              <span class='skew bottom'></span>
-            <a>
-          </div>
+        
+          <img src="../assets/logos/Parvaah Logo.png" alt="" class="parvaah" />
+          <div class="vl"></div>
+          <img
+            src="../assets/logos/Sustainable Reality logo.png"
+            alt=""
+            class="parvaah"
+          />
+        </div>
+        <div class="parvaah-text text-center">
+          Parvaah, the social wing of K.J Somaiya College of Engineering works
+          towards the social causes of the society and improving the conditions
+          of the less privileged. Team Parvaah, through its various initiatives,
+          has been striving to spread maximum social awareness in the community.
+        </div>
+        <div class="p-knowmore text-center">
+          <a
+            class="know-more"
+            href="http://kjsce-symphony.org/2018/parvaah.html"
+            target="_blank"
+            >Know More</a
+          >
         </div>
       </div>
     </div>
 
+    
     <!--Sidebar-->
     <div class="social-media__section">
       <ul class="list-unstyled">
@@ -274,10 +287,25 @@
     </div>
 
     <!-- Option 1: Bootstrap JS -->
+    <script>
+      //       $('#carousel div').click(function() {
+      //   moveToSelected($(this));
+      // });
+
+      // $('#prev').click(function() {
+      //   moveToSelected('prev');
+      // });
+
+      // $('#next').click(function() {
+      //   moveToSelected('next');
+      // });
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/timeline.js"></script>
   </body>
 </html>
