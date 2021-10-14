@@ -14,7 +14,9 @@
   padding-top: 15px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  display: inline-block;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around; */
 }
 
 .social-media__section a {
