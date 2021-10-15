@@ -1,0 +1,29 @@
+.site-footer {
+  /* background-color: rgba(238, 146, 12, 0.1); */
+}
+
+.list-unstyled {
+  list-style-type: none;
+  font-weight: bold;
+}
+.a-cancel {
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+}
+.footer-heading {
+  color: aliceblue;
+}
+.link-heading {
+}
+.site-footer {
+  padding: 45px 0 20px;
+  font-size: 20px;
+  line-height: 24px;
+}
+.custom-link {
+  color: white !important;
+}
+.contact-li {
+  font-weight: bold;
+}
