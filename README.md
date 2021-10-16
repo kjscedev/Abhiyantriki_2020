@@ -8,3 +8,6 @@
 - [ ] Navbar bugs
   - [ ] right somaiya logo on medium screen
   - [ ] overflowing fields
+- [ ] add correct navbar to all pages
+- [ ] update links in all pages
+- [ ] add footer to all pages
