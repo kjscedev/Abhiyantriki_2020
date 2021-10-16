@@ -1,420 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <!-- favicons -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="../assets/favicons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="../assets/favicons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="../assets/favicons/favicon-16x16.png"
-    />
-    <link rel="manifest" href="../assets/favicons/site.webmanifest" />
 
-    <!--font awesome-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicons/favicon-16x16.png" />
+  <link rel="manifest" href="../assets/favicons/site.webmanifest" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-      crossorigin="anonymous"
-    />
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-    <!-- custom CSS -->
-    <link rel="stylesheet" href="../css/homepage.css" /> <!-- for parvaah styles -->
-    <link rel="stylesheet" href="../css/scrollbar.css" />
-    <link rel="stylesheet" href="../css/sidebar.css" />
-    <link rel="stylesheet" href="../css/navbar.css" />
-    <link rel="stylesheet" href="../css/footer.css" />
-    <link rel="stylesheet" href="../css/button.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-      crossorigin="anonymous"
-    />
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
-      rel="stylesheet"
-    />
-    <!--js-->
-    <script src="../assets/js/navbar.js"></script>
+  <!-- custom CSS -->
+  <link rel="stylesheet" href="../css/homepage.css" /> <!-- for parvaah styles -->
+  <link rel="stylesheet" href="../css/scrollbar.css" />
+  <link rel="stylesheet" href="../css/sidebar.css" />
+  <link rel="stylesheet" href="../css/navbar.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+  <link rel="stylesheet" href="../css/button.css" />
 
-    <title>Sponsers | Abhiyantriki 2021</title>
-  </head>
-  <body style="background-color: #001121; font-family: 'Roboto', sans-serif">
-    <!-- NAVBAR -->
-    <div class="container-fluid">
-      <nav
-        class="navbar navbar-expand-lg navbar-dark fixed-top pt-3"
-      >
-        <div class="container-fluid">
-          <a href="/" class="navbar-brand"
-            ><img
-              src="../assets/logos/ab-name-right-white.png"
-              width="130"
-              alt=""
-              class="d-inline-block align-middle mr-2"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navmenu"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navmenu">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item px-2 highlight">
-                <a href="/" class="box foo text-decoration-none">Home</a>
-              </li>
-              <li class="nav-item px-2 highlight">
-                <a href="/events" class="box foo text-decoration-none"
-                  >Events</a
-                >
-              </li>
-              <li class="dropdown nav-item px-2 highlight">
-                <a
-                  class="foo box text-decoration-none"
-                  id="dropdownMenuButton1"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="true"
-                >
-                  Expos & Speakers &nbsp; &#9660
-                </a>
-                <ul
-                  class="dropdown-menu fade-down dropdown-menu-dark dropdown-menu-end"
-                  aria-labelledby="dropdownMenuButton1"
-                >
-                  <li>
-                    <a class="dropdown-item" href="/expos/tech/">Tech Expo</a>
-                  </li>
-                  <li><a class="dropdown-item" href="/expos/internship/">Internship Expo</a></li>
-                  <li>
-                    <a class="dropdown-item" href="/sessions/speaker/"
-                      >Speaker Session</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="/sessions/panel/"
-                      >Panel Session</a
-                    >
-                  </li>
-                </ul>
-              </li>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet" />
+  <!--js-->
+  <script src="../assets/js/navbar.js"></script>
 
-              <li class="nav-item px-2 highlight">
-                <a href="/get-involved/" class="box foo text-decoration-none">Get Involved</a>
-              </li>
-              <li class="nav-item px-2 highlight">
-                <a href="/parvaah/" class="box foo text-decoration-none">Parvaah</a>
-              </li>
-              <li class="nav-item px-2 highlight">
-                <a href="/sponsers/" class="box foo text-decoration-none">Sponsors</a>
-              </li>
-              <li class="nav-item px-2 highlight">
-                <a href="#contact" class="box foo text-decoration-none">Contact</a>
-              </li>
+  <title>Sponsers | Abhiyantriki 2021</title>
+</head>
 
-              <li class="nav-item somaiya">
-                <a href="#" class="navbar-brand"
-                  ><img
-                    src="../assets/logos/somaiya-trust.png"
-                    width="50"
-                    alt=""
-                    class="d-inline-block align-middle mr-2"
-                /></a>
-              </li>
+<body style="background-color: #001121; font-family: 'Roboto', sans-serif">
+  <!-- NAVBAR -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top pt-3">
+      <div class="container-fluid">
+        <a href="/" class="navbar-brand"><img src="../assets/logos/ab-name-right-white.png" width="130" alt=""
+            class="d-inline-block align-middle mr-2" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item px-2 highlight">
+              <a href="/" class="box foo text-decoration-none">Home</a>
+            </li>
+            <li class="nav-item px-2 highlight">
+              <a href="/events" class="box foo text-decoration-none">Events</a>
+            </li>
+            <li class="dropdown nav-item px-2 highlight">
+              <a class="foo box text-decoration-none" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                aria-expanded="true">
+                Expos & Speakers &nbsp; &#9660
+              </a>
+              <ul class="dropdown-menu fade-down dropdown-menu-dark dropdown-menu-end"
+                aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <a class="dropdown-item" href="/expos/tech/">Tech Expo</a>
+                </li>
+                <li><a class="dropdown-item" href="/expos/internship/">Internship Expo</a></li>
+                <li>
+                  <a class="dropdown-item" href="/sessions/speaker/">Speaker Session</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/sessions/panel/">Panel Session</a>
+                </li>
+              </ul>
+            </li>
 
-              <li class="nav-item somaiya">
-                <a href="#" class="navbar-brand"
-                  ><img
-                    src="../assets/logos/somaiya-white-logo.png"
-                    width="125"
-                    alt=""
-                    class="d-inline-block align-middle mr-2"
-                /></a>
-              </li>
-            </ul>
-          </div>
+            <li class="nav-item px-2 highlight">
+              <a href="/get-involved/" class="box foo text-decoration-none">Get Involved</a>
+            </li>
+            <li class="nav-item px-2 highlight">
+              <a href="/parvaah/" class="box foo text-decoration-none">Parvaah</a>
+            </li>
+            <li class="nav-item px-2 highlight">
+              <a href="/sponsers/" class="box foo text-decoration-none">Sponsors</a>
+            </li>
+            <li class="nav-item px-2 highlight">
+              <a href="#contact" class="box foo text-decoration-none">Contact</a>
+            </li>
+
+            <li class="nav-item somaiya">
+              <a href="#" class="navbar-brand"><img src="../assets/logos/somaiya-trust.png" width="50" alt=""
+                  class="d-inline-block align-middle mr-2" /></a>
+            </li>
+
+            <li class="nav-item somaiya">
+              <a href="#" class="navbar-brand"><img src="../assets/logos/somaiya-white-logo.png" width="125" alt=""
+                  class="d-inline-block align-middle mr-2" /></a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </div>   
+      </div>
+    </nav>
+  </div>
 
-    <!-- PARVAAH -->
-    <div class="container my-5"  style="padding-top: 1vh">
-      <div class="col">
-        <h1 class="text-white text-center my-5" style="font-size: 50px">Parvaah</h1>
+  <!-- PARVAAH -->
+  <div class="container my-5" style="padding-top: 1vh">
+    <div class="col">
+      <h1 class="text-white text-center my-5" style="font-size: 50px">Parvaah</h1>
 
-        <div
-          class="
+      <div class="
             d-sm-flex
             justify-content-around
             align-items-center
             text-center
-          "
-        >
-          <img src="../assets/logos/Parvaah Logo.png" alt="" class="parvaah" />
-          <div class="vl"></div>
-          <img
-            src="../assets/logos/Sustainable Reality logo.png"
-            alt=""
-            class="parvaah"
-          />
-        </div>
-        <div class="parvaah-text text-center">
-          Parvaah, the social wing of K.J Somaiya College of Engineering works
-          towards the social causes of the society and improving the conditions
-          of the less privileged. Team Parvaah, through its various initiatives,
-          has been striving to spread maximum social awareness in the community.
-        </div>
-        <div class="p-knowmore text-center d-flex justify-content-center">
-          <a class='holo-btn-fed' href='/parvaah/'>
-            <span class='cta-e'>Volunteer</span>
-            <span class='skew top'></span>
-            <span class='skew bottom'></span>
+          ">
+        <img src="../assets/logos/Parvaah Logo.png" alt="" class="parvaah" />
+        <div class="vl"></div>
+        <img src="../assets/logos/Sustainable Reality logo.png" alt="" class="parvaah" />
+      </div>
+      <div class="parvaah-text text-center">
+        Parvaah, the social wing of K.J Somaiya College of Engineering works
+        towards the social causes of the society and improving the conditions
+        of the less privileged. Team Parvaah, through its various initiatives,
+        has been striving to spread maximum social awareness in the community.
+      </div>
+      <div class="p-knowmore text-center d-flex justify-content-center">
+        <a class='holo-btn-fed' href='/parvaah/'>
+          <span class='cta-e'>Volunteer</span>
+          <span class='skew top'></span>
+          <span class='skew bottom'></span>
           <a>
-        </div>
-      </div>      
-    </div>
-
-    <!-- alternating image text things -->
-    <div>
-      <!-- image left text right -->
-      <div class="container p-3 text-white">
-        <div class="row">
-          <div class="col-sm-6 col-md-6 flex-column d-flex justify-content-center">
-            <div class="align-items-center d-flex justify-content-center flex-column">
-              <div class="fs-1 fw-bold">
-                Beach Clean-up (2017)
-              </div>
-              <div class="align-items-center d-flex justify-content-center flex-column">
-                Team Parvaah was a part of the Versova Beach clean up drive.
-                A lot of student organisations across Mumbai joined hands to save the beach.
-                Cleaning and hygiene issues have always been of utmost importance in our city.
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6">
-            <div style="margin-top: 30; display: flex; justify-content: center">
-              <img
-                style="width: 50%;"
-                src="../assets/images/events/Events.png"
-                alt="Beach Clean-up"
-              />
-            </div>
-          </div>
-        </div>
       </div>
+    </div>
+  </div>
 
-      <!-- image right text left -->
-      <div class="container p-3 text-white">
-        <div class="row">
-          <div class="col-sm-6 col-md-6 flex-column d-flex justify-content-center order-md-2">
+  <!-- alternating image text things -->
+  <div>
+    <!-- image left text right -->
+    <div class="container p-3 text-white">
+      <div class="row">
+        <div class="col-sm-6 col-md-6 flex-column d-flex justify-content-center">
+          <div class="align-items-center d-flex justify-content-center flex-column">
+            <div class="fs-1 fw-bold">
+              Beach Clean-up (2017)
+            </div>
             <div class="align-items-center d-flex justify-content-center flex-column">
-              <div class="fs-1 fw-bold">
-                Beach Clean-up (2017)
-              </div>
-              <div class="align-items-center d-flex justify-content-center flex-column">
-                Team Parvaah was a part of the Versova Beach clean up drive.
-                A lot of student organisations across Mumbai joined hands to save the beach.
-                Cleaning and hygiene issues have always been of utmost importance in our city.
-              </div>
+              Team Parvaah was a part of the Versova Beach clean up drive.
+              A lot of student organisations across Mumbai joined hands to save the beach.
+              Cleaning and hygiene issues have always been of utmost importance in our city.
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 order-md-1">
-            <div style="margin-top: 30; display: flex; justify-content: center">
-              <img
-                style="width: 50%;"
-                src="../assets/images/events/Events.png"
-                alt="Beach Clean-up"
-              />
-            </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+          <div style="margin-top: 30; display: flex; justify-content: center">
+            <img style="width: 50%;" src="../assets/images/events/Events.png" alt="Beach Clean-up" />
           </div>
         </div>
       </div>
     </div>
-  
-   
-    <!-- FOOTER -->  
-    <footer class="site-footer mt-3">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-6 text-center p-2">
-            
-            <h3 class="footer-heading">Reach Us</h3>
-            <ul class="list-unstyled">
-              <li class="custom-link">
-                <a
-                  href="mailto:kjsceabhiyantriki@somaiya.edu"
-                  class="a-cancel custom-link"
-                >
-                  kjsceabhiyantriki@somaiya.edu
-                </a>
-              </li>
-              <li class="custom-link">
-                <a
-                  class="a-cancel custom-link link-heading"
-                >
+
+    <!-- image right text left -->
+    <div class="container p-3 text-white">
+      <div class="row">
+        <div class="col-sm-6 col-md-6 flex-column d-flex justify-content-center order-md-2">
+          <div class="align-items-center d-flex justify-content-center flex-column">
+            <div class="fs-1 fw-bold">
+              Beach Clean-up (2017)
+            </div>
+            <div class="align-items-center d-flex justify-content-center flex-column">
+              Team Parvaah was a part of the Versova Beach clean up drive.
+              A lot of student organisations across Mumbai joined hands to save the beach.
+              Cleaning and hygiene issues have always been of utmost importance in our city.
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 order-md-1">
+          <div style="margin-top: 30; display: flex; justify-content: center">
+            <img style="width: 50%;" src="../assets/images/events/Events.png" alt="Beach Clean-up" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer mt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-6 text-center p-2">
+
+          <h3 class="footer-heading">Reach Us</h3>
+          <ul class="list-unstyled">
+            <li class="custom-link">
+              <a href="mailto:kjsceabhiyantriki@somaiya.edu" class="a-cancel custom-link">
+                kjsceabhiyantriki@somaiya.edu
+              </a>
+            </li>
+            <li class="custom-link">
+              <a class="a-cancel custom-link link-heading">
                 Public Relations
-                </a>
-              </li>
-              <li class="custom-link">
-                <a class="a-cancel custom-link" href="tel:+91-816-938-8385">
-                  <span class="fw-bold">Freya Vora: </span>
-                  +91 8169388385
-                </a>
-              </li>
-              <li class="custom-link">
-                <a
-                  class="a-cancel custom-link link-heading"
-                >
-                Marketing 
-                </a>
-              </li>
-              <li class="custom-link">
-                <a class="a-cancel custom-link" href="tel:+91-816-938-8385">
-                  <span class="fw-bold">Supriya Tiwari: </span>
-                  +91 8169388385
-                </a>
-              </li>
-              <li class="custom-link">
-                <a class="a-cancel custom-link" href="tel:+91-816-938-8385">
-                  <span class="fw-bold">Aabha Borle: </span>
-                  +91 8169388385
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div id="contact" class="col-sm-6 col-md-6 text-center p-2">
-            <h3 class="footer-heading">More</h3>
-            <ul class="list-unstyled">
-              <li class="custom-link m-2 contact-li">
-                
-              </li>
-              <li class="custom-link m-2 contact-li">
-                
-              </li>
-              <li class="custom-link m-2 contact-li">
-                
-              </li>
-            </ul>
-          </div>
-
+              </a>
+            </li>
+            <li class="custom-link">
+              <a class="a-cancel custom-link" href="tel:+91-816-938-8385">
+                <span class="fw-bold">Freya Vora: </span>
+                +91 8169388385
+              </a>
+            </li>
+            <li class="custom-link">
+              <a class="a-cancel custom-link link-heading">
+                Marketing
+              </a>
+            </li>
+            <li class="custom-link">
+              <a class="a-cancel custom-link" href="tel:+91-816-938-8385">
+                <span class="fw-bold">Supriya Tiwari: </span>
+                +91 8169388385
+              </a>
+            </li>
+            <li class="custom-link">
+              <a class="a-cancel custom-link" href="tel:+91-816-938-8385">
+                <span class="fw-bold">Aabha Borle: </span>
+                +91 8169388385
+              </a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </footer>
 
+        <div id="contact" class="col-sm-6 col-md-6 text-center p-2">
+          <h3 class="footer-heading">More</h3>
+          <ul class="list-unstyled">
+            <li class="custom-link m-2 contact-li">
 
-    <!--Sidebar-->
-    <div class="social-media__section">
-      <ul class="list-unstyled">
-        <li>
-          <a href="https://kjscelive.wordpress.com/"
-            ><i class="fa fa-wordpress"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://cutt.ly/Abhiyantriki_2020_Registration"
-            target="_blank"
-            ><i class="fa fa-edit"></i
-          ></a>
-        </li>
-        <li>
-          <a href="/coming-soon" target="_blank"
-            ><i class="fa fa-puzzle-piece"></i
-          ></a>
-        </li>
-        <li>
-          <a href=" https://www.instagram.com/kjscelive/" target="_blank"
-            ><i class="fab fa-instagram"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.facebook.com/kjsceabhiyantriki/?ref=br_rs"
-            target="_blank"
-            ><i class="fab fa-facebook"></i
-          ></a>
-        </li>
-        <li>
-          <a href=" https://twitter.com/kjsabhiyantriki?lang=en" target="_blank"
-            ><i class="fab fa-twitter"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.youtube.com/channel/UC7Z32X4uNZ8c31NteK3065g"
-            target="_blank"
-            ><i class="fa fa-youtube-play"></i
-          ></a>
-        </li>
-      </ul>
-    </div>
-    <!-- Mobile view links -->
-    <div class="mobile-social-media-section my-5">
-      <div class="follow text-center">Follow us on</div>
-      <br />
-      <div class="mobile-social-media-inner-section">
-        <a href=" https://www.instagram.com/kjscelive/"
-          ><i class="fab fa-instagram"></i
-        ></a>
-        <a href="https://www.facebook.com/kjsceabhiyantriki/?ref=br_rs"
-          ><i class="fab fa-facebook"></i
-        ></a>
-        <a href=" https://twitter.com/kjsabhiyantriki?lang=en"
-          ><i class="fab fa-twitter"></i
-        ></a>
-        <a href="https://www.youtube.com/channel/UC7Z32X4uNZ8c31NteK3065g"
-          ><i class="fa fa-youtube-play"></i
-        ></a>
-        <a href="https://kjscelive.wordpress.com/"
-          ><i class="fa fa-wordpress"></i
-        ></a>
+            </li>
+            <li class="custom-link m-2 contact-li">
+
+            </li>
+            <li class="custom-link m-2 contact-li">
+
+            </li>
+          </ul>
+        </div>
+
       </div>
     </div>
+  </footer>
 
-    <!-- Bootstrap JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+  <!--Sidebar-->
+  <div class="social-media__section">
+    <ul class="list-unstyled">
+      <li>
+        <a href="https://kjscelive.wordpress.com/"><i class="fa fa-wordpress"></i></a>
+      </li>
+      <li>
+        <a href="https://cutt.ly/Abhiyantriki_2020_Registration" target="_blank"><i class="fa fa-edit"></i></a>
+      </li>
+      <li>
+        <a href="/coming-soon" target="_blank"><i class="fa fa-puzzle-piece"></i></a>
+      </li>
+      <li>
+        <a href=" https://www.instagram.com/kjscelive/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/kjsceabhiyantriki/?ref=br_rs" target="_blank"><i
+            class="fab fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href=" https://twitter.com/kjsabhiyantriki?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UC7Z32X4uNZ8c31NteK3065g" target="_blank"><i
+            class="fa fa-youtube-play"></i></a>
+      </li>
+    </ul>
+  </div>
+  <!-- Mobile view links -->
+  <div class="mobile-social-media-section my-5">
+    <div class="follow text-center">Follow us on</div>
+    <br />
+    <div class="mobile-social-media-inner-section">
+      <a href=" https://www.instagram.com/kjscelive/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/kjsceabhiyantriki/?ref=br_rs"><i class="fab fa-facebook"></i></a>
+      <a href=" https://twitter.com/kjsabhiyantriki?lang=en"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.youtube.com/channel/UC7Z32X4uNZ8c31NteK3065g"><i class="fa fa-youtube-play"></i></a>
+      <a href="https://kjscelive.wordpress.com/"><i class="fa fa-wordpress"></i></a>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

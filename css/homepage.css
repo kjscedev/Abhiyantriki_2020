@@ -23,7 +23,7 @@ body {
 
 .parvaah {
   height: 20vw;
-  aspect-ratio: 1;
+  width: auto;
   margin: 1vw;
 }
 
