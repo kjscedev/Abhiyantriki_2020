@@ -4,7 +4,9 @@
 
 - [x] Expo screens
 - [x] Link expo screens using navbar
-- [ ] Overflow problems homepage
+- [x] Overflow problems homepage
+- [ ] No carousal icons on small screen problems homepage
+- [ ] side bar empty space on some screens
 - [ ] Navbar bugs
   - [ ] right somaiya logo on medium screen
   - [ ] overflowing fields
