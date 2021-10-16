@@ -27,3 +27,19 @@
 .contact-li {
   font-weight: bold;
 }
+
+.contact-links {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 1.1rem;
+}
+.contact-links a {
+  padding-top: 5px;
+  color: white;
+  text-decoration: none;
+}
+.contact-links i {
+  margin-right: 10px;
+}
