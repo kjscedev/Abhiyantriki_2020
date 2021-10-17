@@ -45,74 +45,82 @@
 
 <body>
   <!-- NAVBAR -->
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top pt-3">
-      <div class="container-fluid">
-        <a href="/" class="navbar-brand"><img src="./assets/logos/ab-name-right-white.png" width="130" alt=""
-            class="d-inline-block align-middle mr-2" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item px-2 highlight">
-              <a href="/" class="box foo text-decoration-none">Home</a>
-            </li>
-            <li class="nav-item px-2 highlight">
-              <a href="/events" class="box foo text-decoration-none">Events</a>
-            </li>
-            <li class="dropdown nav-item px-2 highlight">
-              <a class="foo box text-decoration-none" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                aria-expanded="true">
-                <span>Expos & Speakers </span><span> </span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                  <path
-                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
-                </svg>
-              </a>
-              <ul class="dropdown-menu fade-down dropdown-menu-dark dropdown-menu-end"
-                aria-labelledby="dropdownMenuButton1">
-                <li>
-                  <a class="dropdown-item" href="/expos/tech/">Tech Expo</a>
-                </li>
-                <li><a class="dropdown-item" href="/expos/internship/">Internship Expo</a></li>
-                <li>
-                  <a class="dropdown-item" href="/sessions/speaker/">Speaker Session</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/sessions/panel/">Panel Session</a>
-                </li>
-              </ul>
-            </li>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top pt-3">
+    <div class="container-fluid">
 
-            <li class="nav-item px-2 highlight">
-              <a href="/get-involved/" class="box foo text-decoration-none">Get Involved</a>
-            </li>
-            <li class="nav-item px-2 highlight">
-              <a href="/parvaah/" class="box foo text-decoration-none">Parvaah</a>
-            </li>
-            <li class="nav-item px-2 highlight">
-              <a href="/sponsers/" class="box foo text-decoration-none">Sponsors</a>
-            </li>
-            <li class="nav-item px-2 highlight">
-              <a href="#contact" class="box foo text-decoration-none">Contact</a>
-            </li>
+      <!-- left logo -->
+      <a href="/" class="navbar-brand">
+        <img src="./assets/logos/ab-name-right-white.png" width="130" alt="abhiyantriki"
+          class="d-inline-block align-middle mr-2" />
+      </a>
 
+      <!-- toggle button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- links -->
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item px-2 highlight">
+            <a href="/" class="box foo text-decoration-none">Home</a>
+          </li>
+          <li class="nav-item px-2 highlight">
+            <a href="/events" class="box foo text-decoration-none">Events</a>
+          </li>
+          <li class="dropdown nav-item px-2 highlight">
+            <a class="foo box text-decoration-none" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+              aria-expanded="true">
+              <span>Expos & Speakers </span><span> </span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+              </svg>
+            </a>
+            <ul class="dropdown-menu fade-down dropdown-menu-dark dropdown-menu-end"
+              aria-labelledby="dropdownMenuButton1">
+              <li>
+                <a class="dropdown-item" href="/expos/tech/">Tech Expo</a>
+              </li>
+              <li><a class="dropdown-item" href="/expos/internship/">Internship Expo</a></li>
+              <li>
+                <a class="dropdown-item" href="/sessions/speaker/">Speaker Session</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/sessions/panel/">Panel Session</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item px-2 highlight">
+            <a href="/get-involved/" class="box foo text-decoration-none">Get Involved</a>
+          </li>
+          <li class="nav-item px-2 highlight">
+            <a href="/parvaah/" class="box foo text-decoration-none">Parvaah</a>
+          </li>
+          <li class="nav-item px-2 highlight">
+            <a href="/sponsers/" class="box foo text-decoration-none">Sponsors</a>
+          </li>
+          <li class="nav-item px-2 highlight">
+            <a href="#contact" class="box foo text-decoration-none">Contact</a>
+          </li>
+
+          <!-- right images -->
+          <ul class="d-flex me-auto">
             <li class="nav-item somaiya">
               <a href="#" class="navbar-brand"><img src="./assets/logos/somaiya-trust.png" width="50" alt=""
                   class="d-inline-block align-middle mr-2" /></a>
             </li>
-
             <li class="nav-item somaiya">
               <a href="#" class="navbar-brand"><img src="./assets/logos/somaiya-white-logo.png" width="125" alt=""
                   class="d-inline-block align-middle mr-2" /></a>
             </li>
           </ul>
-        </div>
+        </ul>
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
 
   <!-- HOMEPAGE -->
   <div class="vh-100">
@@ -207,11 +215,7 @@
       <div class="d-sm-flex justify-content-between align-items-center">
         <div class="container">
           <div class="tl-image">
-            <img
-                src="/assets/images/timeline/2017.png"
-                height="400"
-                id="changedImage"
-              />
+            <img src="/assets/images/timeline/2017.png" height="400" id="changedImage" />
           </div>
           <div class="tl-text m-3" id="changedText">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,

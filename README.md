@@ -12,5 +12,5 @@
   - [ ] overflowing fields
 - [ ] add correct navbar to all pages
 - [ ] update links in all pages
-- [ ] add links to footer more sections
+- [x] add links to footer more sections
 - [ ] add footer to all pages
