@@ -114,8 +114,10 @@ ul {
   text-decoration: none;
   letter-spacing: 0.05em;
 
+
   display: flex;
   flex-direction: column;
+  margin: 1.5rem;
   padding: 5px 5px;
   position: relative;
 }
@@ -136,6 +138,11 @@ ul {
   width: 25%;
   right: 0;
 }
+
+.year-list {
+  text-align: end;
+} 
+
 
 @media only screen and (max-width: 500px) {
   .vl {
@@ -171,5 +178,46 @@ ul {
     display: inline-block;
     -webkit-transform: rotate(-180deg);
     transform: rotate(-180deg);
+  }
+
+  #changedImage {  
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   height: 100%;
+  }
+
+  .tl-years {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  /* .tl-image {
+    display: block;
+    margin: auto;
+    width: 100%;
+  } */
+
+  .year-list {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .year {
+    margin: 0.5rem;
+  }
+
+
+  .year:hover:after {
+    width: 0;
+    right: 0;
+  }
+
+  .year:after {
+    content: "";  
   }
 }
