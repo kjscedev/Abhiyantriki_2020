@@ -43,3 +43,7 @@
 .contact-links i {
   margin-right: 10px;
 }
+
+.white:hover {
+  color: #fce588;
+}
