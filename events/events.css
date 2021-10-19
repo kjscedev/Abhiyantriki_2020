@@ -242,9 +242,7 @@ span[class^="cta"]:before {
 }
 
 @media only screen and (max-width: 500px) {
-    .vh-100 {
-      height: fit-content;
-    }
+   
 
     .holo-btn-fed {
       margin: 15px;
