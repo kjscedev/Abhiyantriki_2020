@@ -240,3 +240,14 @@ span[class^="cta"]:before {
   animation-name: holox-reb;
   box-shadow: 0 0 13px rgba(255, 9, 0, 0.6) inset;
 }
+
+@media only screen and (max-width: 500px) {
+    .vh-100 {
+      height: fit-content;
+    }
+
+    .holo-btn-fed {
+      margin: 15px;
+    }
+
+}
