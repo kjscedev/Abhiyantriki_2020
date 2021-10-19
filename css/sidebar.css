@@ -8,7 +8,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color:#111;
+  background-color: #111;
   overflow-x: hidden;
   margin-top: 200px;
   padding-top: 15px;
@@ -72,9 +72,14 @@
 
   /* links containers */
   .mobile-social-media-section {
+    overflow-x: hidden !important;
     display: block;
     width: 100%;
-    margin: 30px auto;
+    padding: 30px auto;
+  }
+  .follow {
+    color: #11f1ff !important;
+    font-size: 1.5rem;
   }
   .mobile-social-media-inner-section {
     width: 95%;

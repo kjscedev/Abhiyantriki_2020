@@ -1,31 +1,39 @@
 .site-footer {
-  /* background-color: rgba(238, 146, 12, 0.1); */
+  /* background-color: rgba(238, 146, 12, 0.1);  */
+  border-top: 1px solid white;
+  padding: 45px 0 0px;
+  font-size: 1rem;
+  line-height: 24px;
 }
 
 .list-unstyled {
   list-style-type: none;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 .a-cancel {
   text-decoration: none;
-  font-size: 15px;
   text-align: center;
 }
+
+/* sync with .follow in sidebar.css */
 .footer-heading {
-  color: aliceblue;
+  color: #11f1ff !important;
+  font-size: 1.5rem;
 }
+.link-heading-li {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
 .link-heading {
-}
-.site-footer {
-  padding: 45px 0 20px;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 .custom-link {
-  color: white !important;
+  color: white;
 }
 .contact-li {
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .contact-links {
