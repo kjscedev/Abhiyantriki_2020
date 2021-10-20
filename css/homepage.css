@@ -3,8 +3,6 @@
   padding: 0;
 }
 body {
-  margin: 0;
-  padding: 0;
   background-image: linear-gradient(#001121, #001121);
   overflow-x: hidden !important;
   font-family: "Roboto", sans-serif !important;
@@ -90,9 +88,9 @@ body {
   margin: 10px;
 }
 
-ul {
+/* ul {
   list-style-type: none;
-}
+} */
 
 .kj-img {
   width: 30vw;
@@ -113,7 +111,6 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.05em;
-
 
   display: flex;
   flex-direction: column;
@@ -141,12 +138,11 @@ ul {
 
 .year-list {
   text-align: end;
-} 
-
-.white:hover {
-    color: #fce588;
 }
 
+.white:hover {
+  color: #fce588;
+}
 
 @media only screen and (max-width: 500px) {
   .vl {
@@ -158,19 +154,10 @@ ul {
   }
   .parvaah {
     height: 60vw;
-    aspect-ratio: 1;
     margin: 0vw;
   }
   .main-img {
     height: 40vh;
-  }
-  .kjsce {
-    width: 75vw;
-    float: left;
-  }
-  .abhiyantriki {
-    width: 75vw;
-    float: right;
   }
 
   .rev {
@@ -184,12 +171,12 @@ ul {
     transform: rotate(-180deg);
   }
 
-  #changedImage {  
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 100%;
-   height: 100%;
+  #changedImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
   }
 
   .tl-years {
@@ -215,13 +202,12 @@ ul {
     margin: 0.5rem;
   }
 
-
   .year:hover:after {
     width: 0;
     right: 0;
   }
 
   .year:after {
-    content: "";  
+    content: "";
   }
 }
