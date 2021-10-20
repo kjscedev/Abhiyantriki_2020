@@ -7,9 +7,9 @@
 - [x] Overflow problems homepage
 - [ ] No carousal icons on small screen problems homepage
 - [ ] side bar empty space on some screens
-- [ ] Navbar bugs
+- [x] Navbar bugs
   - [x] right somaiya logo on medium screen
-  - [ ] overflowing fields
+  - [x] overflowing fields
 - [ ] add correct navbar to all pages
 - [ ] update links in all pages
 - [x] add links to footer more sections
