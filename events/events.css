@@ -241,6 +241,13 @@ span[class^="cta"]:before {
   box-shadow: 0 0 13px rgba(255, 9, 0, 0.6) inset;
 }
 
+.modal-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 @media only screen and (max-width: 500px) {
    
 

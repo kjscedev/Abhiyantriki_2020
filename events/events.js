@@ -60,3 +60,7 @@ function changeToPreevents() {
   document.getElementById("name-7").innerHTML = "pre-event event 7";
   document.getElementById("name-8").innerHTML = "pre-event event 8";
 }
+
+function getInfoModal(){
+  $('#codespree').modal('show');
+}

@@ -150,7 +150,7 @@
         </div>
       </div>
       <div class="d-sm-flex justify-content-around event-blocks">
-        <div class="block block-1">
+        <div class="block block-1" onclick={getInfoModal()}>
           <img src="assets/events_image.png" alt="" srcset="" width="200" class="img-1">
           <h2 class="name" id="name-1">Event name</h2>
         </div>
@@ -233,6 +233,25 @@
       <a href=" https://twitter.com/kjsabhiyantriki?lang=en"><i class="fab fa-twitter"></i></a>
       <a href="https://www.youtube.com/channel/UC7Z32X4uNZ8c31NteK3065g"><i class="fa fa-youtube-play"></i></a>
       <a href="https://kjscelive.wordpress.com/"><i class="fa fa-wordpress"></i></a>
+    </div>
+  </div>
+
+  <!-- Modals -->
+  <div class="modal fade" id="codespree" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-center" id="exampleModalLabel">Modal title</h5>
+          <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button> -->
+        </div>
+        <div class="modal-body">
+          <img src="./assets/events_image.png" height="100" class="modal-img"/>
+          <br/>
+          The information about the event will go in here as this modal's body!
+        </div>
+      </div>
     </div>
   </div>
 
