@@ -65,6 +65,16 @@ ul {
     display: none;
   }
 }
+@media only screen and (max-width: 1183px) {
+  .right-wala-somaiya-logo {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1055px) {
+  .left-wala-somaiya-logo {
+    display: none;
+  }
+}
 
 /* navbar drop down animation 
 credits: https://bootstrap-menu.com/detail-hover-animation.html */
