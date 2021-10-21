@@ -210,4 +210,7 @@ body {
   .year:after {
     content: "";
   }
+  .c-link {
+     font-size: 1rem;
+  }
 }
