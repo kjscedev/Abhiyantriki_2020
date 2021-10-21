@@ -21,7 +21,7 @@
     grid-column: 2;
     grid-row: 1;
     height: 15vw;
-    overflow: hidden;
+    overflow: visible;
   }
   
   #carousel div {
@@ -149,6 +149,12 @@
 
 @media screen and (max-width: 500px){
    .caro-img{
+     margin-left: 10vw;
+     margin-right: 10vw;
      padding: 5px;
+     border-radius: 0%;
+     border: none;
+     min-width: 21vw;
+     min-height: 8vh;
    }
 }
