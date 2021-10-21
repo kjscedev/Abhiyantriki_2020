@@ -150,11 +150,11 @@
         </div>
       </div>
       <div class="d-sm-flex justify-content-around event-blocks">
-        <div class="block block-1" onclick={getInfoModal()}>
+        <div class="block block-1" onclick={getCodeSpreeModal()}>
           <img src="assets/events_image.png" alt="" srcset="" width="200" class="img-1">
           <h2 class="name" id="name-1">Event name</h2>
         </div>
-        <div class="block block-2">
+        <div class="block block-2" onclick={getCrackathonModal()}>
           <img src="assets/events_image.png" alt="" srcset="" width="200" class="img-2">
           <h2 class="name" id="name-2">Event name</h2>
         </div>
@@ -247,9 +247,9 @@
           </button> -->
         </div>
         <div class="modal-body">
-          <img src="./assets/events_image.png" height="100" class="modal-img"/>
+          <img src="./assets/events_image.png" height="100"class="modal-img" id="modal-img"/>
           <br/>
-          The information about the event will go in here as this modal's body!
+          <p id="modal-txt"></p>
         </div>
       </div>
     </div>

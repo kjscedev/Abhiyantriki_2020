@@ -22,7 +22,6 @@ function changeToShield() {
   document.getElementById("name-6").innerHTML = "shield event 6";
   document.getElementById("name-7").innerHTML = "shield event 7";
   document.getElementById("name-8").innerHTML = "shield event 8";
-   
 }
 
 function changeToInformals() {
@@ -61,6 +60,13 @@ function changeToPreevents() {
   document.getElementById("name-8").innerHTML = "pre-event event 8";
 }
 
-function getInfoModal(){
-  $('#codespree').modal('show');
+function getCodeSpreeModal() {
+  document.getElementById("modal-txt").innerHTML = "CodeSpree";
+  // document.getElementById("modal-img").src = Image Path;
+  $("#codespree").modal("show");
+}
+
+function getCrackathonModal() {
+  document.getElementById("modal-txt").innerHTML = "Crackathon";
+  $("#codespree").modal("show");
 }
